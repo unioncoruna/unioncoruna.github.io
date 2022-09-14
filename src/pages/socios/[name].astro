@@ -1,0 +1,100 @@
+---
+import { associates } from "../../data/associates";
+import Layout from "../../layouts/Layout.astro";
+import Header from "../../components/Header.astro";
+import Testimonial from "../../components/Testimonial.astro";
+import CompanyProfile from "../../components/CompanyProfile.astro";
+import BreadCrumb from "../../components/BreadCrumb.astro";
+import DescriptionList from "../../components/DescriptionList.astro";
+
+const { name } = Astro.params;
+
+export function getStaticPaths() {
+  const params = associates.map((associate) => ({
+    params: { name: associate.companySlug },
+    props: { ...associate },
+  }));
+  return params;
+}
+const {
+  companyName,
+  sector,
+  contact,
+  services,
+  logoUrl,
+  description,
+  slogan,
+  needs,
+  associate,
+} = Astro.props;
+
+const meta = {
+  title: `${companyName} · Unión Coruña`,
+  description: `${companyName} - ${sector} - ${slogan}`,
+};
+---
+
+<Layout title={meta.title} description={meta.description}>
+  <Header title={companyName} slogan={sector}>
+    <!-- <img
+      src={logoUrl}
+      alt={`Logo de ${companyName}`}
+      class="mx-auto sm:mx-0 py-4 lg:px-8 w-64 sm:w-80 drop-shadow-glow"
+    /> -->
+  </Header>
+  <BreadCrumb companyName={companyName} href={`/socios/${name}`} />
+
+  <div class="overflow-hidden bg-gray-50 py-8">
+    <div class="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
+      <!-- <div
+        class="relative z-10 mx-auto max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72"
+      >
+        <p class="text-lg text-gray-500">
+          {slogan}
+        </p>
+      </div> -->
+      <div class="grid lg:grid-cols-2 lg:items-start gap-8">
+        <div class="relative z-10 order-1 lg:order-none">
+          <p class="text-lg text-gray-500 pb-8">
+            {slogan}
+          </p>
+          <div
+            class="prose prose-indigo mx-auto text-gray-500 lg:max-w-none"
+            set:html={description}
+          >
+          </div>
+
+          {
+            services && (
+              <DescriptionList title="Productos y servicios" data={services} />
+            )
+          }
+          {needs && <DescriptionList title="Necesidades" data={needs} />}
+
+          <!-- <div class="mx-auto mt-10 flex max-w-prose text-base lg:max-w-none">
+            <div class="rounded-md shadow">
+              <a
+                href="#"
+                class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+                >Contact sales</a
+              >
+            </div>
+            <div class="ml-4 rounded-md shadow">
+              <a
+                href="#"
+                class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
+                >Learn more</a
+              >
+            </div>
+          </div> -->
+        </div>
+        <CompanyProfile
+          contact={contact}
+          associate={associate}
+          logoUrl={logoUrl}
+          companyName={companyName}
+        />
+      </div>
+    </div>
+  </div>
+</Layout>
