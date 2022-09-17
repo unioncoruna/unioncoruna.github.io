@@ -17,8 +17,8 @@ export type Company = {
   slogan: string;
   associate: Associate;
   contact: Contact;
-  services?: { name: string; description: string }[];
-  needs?: { name: string; description: string }[];
+  services?: { name: string; description?: string }[];
+  needs?: { name: string; description?: string }[];
   description: string;
 };
 export const associates: Company[] = [
@@ -39,7 +39,7 @@ export const associates: Company[] = [
       formalName: "Galicloud S. Coop. Galega",
       email: "contacto@galicloud.com",
       web: "www.galicloud.com",
-      phone: "+34666555444",
+      phone: "+34604026063",
     },
     services: [
       {
@@ -88,7 +88,7 @@ export const associates: Company[] = [
       formalName: undefined,
       email: "jesus@asesorenergetico.info",
       web: "www.asesorenergetico.info",
-      phone: "680434243",
+      phone: "+34680434243",
     },
     services: [
       {
@@ -120,6 +120,42 @@ export const associates: Company[] = [
         name: "Clientes",
         description:
           "Empresas, industrias, cadenas de establecimientos hosteleros, hoteles, restaurantes, administradores de fincas, asesorías, gestorías, etc.",
+      },
+    ],
+  },
+  {
+    companySlug: "popup-marketing",
+    companyName: "PopUp Marketing",
+    logoUrl: "/images/logos/Logo_PopUp_Sin_Fondo.png",
+    sector: "Marketing Digital",
+    slogan: "Te ayudamos a conseguir nuevos clientes",
+    description: `Publicidad en Google, Youtube, Redes Sociales. Automatizaciones de email marketing y embudos de venta.`,
+    associate: {
+      name: "Julio J. Gallego Sáenz",
+      imgUrl: "/images/avatar/JulioGallego.jpg",
+      role: "CEO",
+    },
+    contact: {
+      formalName: undefined,
+      email: "info@popupmarketing.es",
+      web: "www.popupmarketing.es",
+      phone: "+34698183224",
+    },
+    services: [
+      {
+        name: "Publicidad",
+      },
+      {
+        name: "Creación de embudos de venta",
+      },
+      {
+        name: "Email Marketing",
+      },
+    ],
+    needs: [
+      {
+        name: "Clientes con ecommerce",
+        description: "Empresas que tengan tienda online",
       },
     ],
   },
