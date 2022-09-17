@@ -123,27 +123,4 @@ export const associates: Company[] = [
       },
     ],
   },
-  {
-    companySlug: "garal",
-    companyName: "Empresa Molona",
-    logoUrl: "/images/logos/logo_galicloud@2x.png",
-    sector: "Desarrollo de software",
-    slogan:
-      "Desarrollamos Software para empresas. Especializados en aplicaciones web.",
-    associate: {
-      name: "Armando Guerra Torrente",
-      imgUrl:
-        "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2.5&w=160&h=160&q=80",
-      role: "CTO",
-    },
-    contact: {
-      formalName: "Galicloud S. Coop. Galega",
-      email: "asd",
-      web: "asd",
-      phone: "phone",
-    },
-    services: [],
-    needs: [{ name: "nombre", description: "descripcion" }],
-    description: "Hacemos reformas",
-  },
 ];
