@@ -15,7 +15,7 @@ const { href, companyName, associateName, description, logoUrl, associate } =
 ---
 
 <li class="shadow-lg p-8 rounded-lg outline outline-1 outline-gray-300">
-  <a href={href} class="space-y-4">
+  <a href={href} class="">
     <div class="aspect-w-3 aspect-h-2 w-full h-auto relative">
       <!-- src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" -->
       <img
@@ -24,16 +24,27 @@ const { href, companyName, associateName, description, logoUrl, associate } =
         alt=""
       />
     </div>
-    <div class="text-lg font-medium leading-6 pr-20 relative">
-      <h3 class="mt-2">{companyName}</h3>
-      <p class="text-indigo-600 mt-2">{associateName}</p>
+    <div class="flex justify-between">
+      <div class="text-lg font-medium leading-6 relative grow break-all">
+        <h3 class="mt-2 break-words">{companyName}</h3>
+        <p class="text-indigo-600 mt-2 break-words">{associateName}</p>
+      </div>
       {
         associate && (
-          <img
-            class="h-20 w-20 rounded-full bg-indigo-300 absolute border-4 border-white top-auto right-0 left-auto bottom-0 translate-y-4"
-            src={associate.imgUrl}
-            alt={associate.name}
-          />
+          <div class="w-20 basis-20 mb-4">
+            <span class="rounded-full min-w-fit min-h-fit transform ">
+              <img
+                class="h-20 w-20 rounded-full bg-indigo-300 sm:h-20 sm:w-20 object-cover"
+                src={associate.imgUrl}
+                alt={associate.name}
+              />
+            </span>
+          </div>
+          //   <img
+          //     class="h-20 w-20 rounded-full bg-indigo-300 absolute border-4 border-white top-auto right-0 left-auto bottom-0 translate-y-4"
+          //     src={associate.imgUrl}
+          //     alt={associate.name}
+          //   />
         )
       }
     </div>
