@@ -26,7 +26,7 @@ export const associates: Company[] = [
     companySlug: "galicloud",
     companyName: "Galicloud",
 
-    logoUrl: "/images/logos/logo_galicloud@2x.png",
+    logoUrl: "/images/logos/galicloud_color_sin_tagline.png",
     sector: "Desarrollo de software",
     slogan:
       "Desarrollamos Software para empresas. Especializados en aplicaciones web.",
@@ -132,7 +132,7 @@ export const associates: Company[] = [
     description: `Publicidad en Google, Youtube, Redes Sociales. Automatizaciones de email marketing y embudos de venta.`,
     associate: {
       name: "Julio J. Gallego Sáenz",
-      imgUrl: "/images/avatar/JulioGallego.jpg",
+      imgUrl: "/images/avatar/JulioGallego_popup.jpg",
       role: "CEO",
     },
     contact: {
