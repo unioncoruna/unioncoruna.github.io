@@ -71,7 +71,7 @@ export const associates: Company[] = [
   {
     companySlug: "asesorenergetico.info",
     companyName: "Asesorenergetico.info",
-    logoUrl: "/images/logos/ASESOR-ENERGETICO-LOGO-1.png",
+    logoUrl: "/images/logos/logo_asesor_energetico.svg",
     sector: "Eficiencia energética, movilidad eléctrica y Passivhaus",
     slogan: "Eficiencia energética, movilidad eléctrica y Passivhaus",
     description: `Abaratar facturas de electricidad y gas.
