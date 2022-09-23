@@ -1,7 +1,7 @@
 export type Contact = {
   formalName?: string;
   email: string;
-  web: string;
+  web?: string;
   phone: string;
 };
 export type Associate = {
@@ -23,6 +23,7 @@ export type Company = {
 };
 export const associates: Company[] = [
   {
+    // Galicloud
     companySlug: "galicloud",
     companyName: "Galicloud",
 
@@ -69,6 +70,7 @@ export const associates: Company[] = [
       "Nos dedicamos al desarrollo de software y desarrollo de apps. Utilizamos y dominamos algunas de las tecnologías webs más modernas y demandadas. Somos expertos en desarrollo web y también impartimos formación a empresas en las últimas tecnologías web.",
   },
   {
+    // Asesor energético
     companySlug: "asesorenergetico.info",
     companyName: "Asesorenergetico.info",
     logoUrl: "/images/logos/logo_asesor_energetico.svg",
@@ -124,6 +126,7 @@ export const associates: Company[] = [
     ],
   },
   {
+    // Popup Marketing
     companySlug: "popup-marketing",
     companyName: "PopUp Marketing",
     logoUrl: "/images/logos/Logo_PopUp_Sin_Fondo.png",
@@ -156,6 +159,149 @@ export const associates: Company[] = [
       {
         name: "Clientes con ecommerce",
         description: "Empresas que tengan tienda online",
+      },
+    ],
+  },
+  { // Comercial Diresa
+    companySlug: "diresa",
+    companyName: "Comercial Diresa",
+    logoUrl: "/images/logos/logo_diresa.webp",
+    sector: "Ferretería. Suministros Industriales.",
+    slogan: "Tu Ferretería Industrial de confianza",
+    description: `<p>Comercial Diresa es una empresa familiar, constituída en el año 1984, que nace para dar servicio a la demanda de nuestros clientes en la Ría de Ferrol.</p>
+
+<p>El auge del sector naval en aquella época hizo crecer a la empresa y forzó su diversificación en almacenamiento y distribución de productos de índole industrial.</p>
+
+<p>Si bien es cierto que todo empezó como una ferretería de efectos navales e industriales, desde aquel entonces, siempre hemos estado a la vanguardia de las novedades introducidas por los fabricantes en el ámbio de los suministros industriales.</p>
+
+<p>40 años después, seguimos trabajando todos los días para ofrecer una solución inmediata a nuestros clientes.</p>
+
+<p>Hoy en día, gracias a nuestro desarrollo digital, no sólo abarcamos la geografía de Ferrol y Galicia, si no que tenemos un alcance nacional, sirviendo productos de soldadura e industriales en toda España.</p>`,
+    associate: {
+      name: "Alejandro M. Santos",
+      imgUrl: "/images/avatar/AlejandroMSantos.webp",
+      role: "CMO",
+    },
+    contact: {
+      formalName: "Comercial Diresa S.L.",
+      email: "info@comercialdiresa.com",
+      web: "www.comercialdiresa.com",
+      phone: "+34671409879",
+    },
+    services: [
+      {
+        name: "Herramientas manuales",
+      },
+      {
+        name: "Herramientas eléctricas",
+      },
+      {
+        name: "Ferretería",
+      },
+      {
+        name: "Soldadura",
+      },
+      {
+        name: "Materiales de construcción",
+      },
+      {
+        name: "Corte de hierro a medida",
+      },
+      {
+        name: "Malla hércules",
+      },
+      {
+        name: "Jardinería",
+      },
+    ],
+    needs: [
+      {
+        name: "Clientes profesionales (talleres, almacenistas, industria...)",
+      },
+    ],
+  },
+  { // Juifi
+    companySlug: "juifi",
+    companyName: "JUIFI",
+    logoUrl: "/images/logos/Nuevo_Logo_Juifi.webp",
+    sector: "Telecomunicaciones",
+    slogan: "FIBRA e INTERNET RURAL",
+    description: `Comenzamos ofreciendo servicios de internet en zonas rurales y/o de dificil acceso y actualmente hemos evolucionado a territorio nacional al disponer de fibra en cualquier ubicacion.`,
+    associate: {
+      name: "Óscar Iglesias Tarrío",
+      imgUrl: undefined,
+      role: "Administrador",
+    },
+    contact: {
+      formalName: "WIMASNET SOLUTIONS SL",
+      email: "oscar.iglesias@juifi.com",
+      web: "www.juifi.com",
+      phone: "+34693778866",
+    },
+    services: [
+      {
+        name: "Fibra",
+      },
+      {
+        name: "Internet rural a través de wimax/4G",
+      },
+      {
+        name: "Móvil",
+      },
+      {
+        name: "TV",
+      },
+    ],
+    needs: [
+      {
+        name: "Clientes interesados en tener un buen servicio a buen precio",
+      },
+    ],
+  },
+  {
+    companySlug: "caviar-calvisius",
+    companyName: "Caviar Calvisius Distribución GAL",
+    logoUrl: "/images/logos/logo_caviar_calvisius-v2.webp",
+    sector: "Distribución Caviar",
+    slogan: "Distribución Gallega de Caviar a particulares y empresas.",
+    description: `<p>En 1998 La Convención CITES incluye al esturión entre las especies en peligro de extinción limitando su pesca. En 2008 La pesca fue totalmente prohibida y las pocas quotas de pesca para algunos paises del mar Caspio, tienen total y absolutamente prohibida su exportacion. Por lo tanto, todo el caviar que se comercializa en el mundo es de cultivo.</p>
+
+    <p>En 1977 nace Agroittica Lombarda siendo la primera empresa de cultivo de esturiones para la producción de caviar.<br />
+    Con los años, la empresa se ha convertido en el referente mundial por la frescura, calidad y buen sabor, y por la pureza de toda su producción.</p>
+    
+    <p>Agroittica S.p.A. se encuentra en Calvisano al lado del Lago de Garda, bello municipio de la provincia de Brescia, región rica en fuentes de aguas de manantial. Las características únicas y excepcionales de las aguas puras presentes en la zona, son la base para el excelente ecosistema que garantiza la autenticidad y frescura de nuestros productos.</p>
+    
+    <p>En 2007, justo antes de la prohibicion de pesca, Agroittica establece el récord de producción con 25 toneladas de caviar, que suponen aproximadamente el 30% de la producción mundial, superando a la de Irán.</p>
+    
+    <ul>
+    <li>Agroittica es la reserva de esturiones puros mas grande del mundo jugando un papel crucial en la consevacion de las especies.</li>
+    <li>Nos avalan 60 hectareas en un entorno puro y natural y una produccion de 25 toneladas de caviar anuales que exportamos al mundo.</li>
+    <li>El fondo de las piscinas asimila el habitat natural de los esturiones, con los fondos cubiertos de piedras de rio y con la vegetacion natural de los fondos aquaticos y sus desembocaduras. Un entorno natural que da como resultado un caviar natural, original y puro.</li>
+    <li>No sometemos a nuestros esturiones a ningun proceso de aceleracion biologico por lo que respetamos los ciclos naturales de produccion. Cada esturion llega a la edad madura segun su propia biologia y de forma totalmente natural.</li>
+    <li>La produccion es malosol, utilizando un 2,5% de sal como conservante. La sal es de Cervia, sal marina llamada ‘sale dei Papi’, la sal de los Papas, excelente sal pura.</li>
+    <li>La transparencia y pureza de sabor de nuestros caviares nos han abierto las puertas del mundo entero.</li>
+    <li>Calvisius juega un papel clave en el suministro de este exquisito producto con todas las garantias de produccion y de trazabilidad desde el nacimiento de nuestros alevines hasta las entregas a nuestros estimados clientes sin límite de distancia.</li>
+    </ul>
+    `,
+    associate: {
+      name: "Carolina Goldsmith Bonigno",
+      imgUrl: "/images/avatar/CarolinaGoldsmith.webp",
+      role: "Distribuidora",
+    },
+    contact: {
+      formalName: "INFINITE B2B INVEST 2022 SL",
+      email: "caviar.calvisius.distribucion.gal@gmail.com",
+      web: undefined,
+      phone: "+34610139377",
+    },
+    services: [
+      {
+        name: "Caviar",
+      },
+    ],
+    needs: [
+      {
+        name: "Clientes (particulares y empresas)",
       },
     ],
   },
