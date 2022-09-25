@@ -77,7 +77,7 @@ const { associate, contact, logoUrl, companyName } = Astro.props;
             <dt class="text-sm font-medium text-gray-500">
               Correo electrónico:
             </dt>
-            <dd class="mt-1 text-sm text-gray-900">
+            <dd class="mt-1 text-sm text-gray-900 break-words">
               <a href={`mailto://${contact.email}`}>
                 {contact.email}
               </a>

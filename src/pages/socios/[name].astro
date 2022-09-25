@@ -32,9 +32,28 @@ const meta = {
   title: `${companyName} · Unión Coruña`,
   description: `${companyName} - ${sector} - ${slogan}`,
 };
+
+// const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
+// const canonicalURL = new URL(Astro.url.pathname, 'https://unioncoruna.com').toString();
+const canonicalURL = new URL(Astro.url.pathname, Astro.url).toString();
+
+const socialImageURL = new URL(logoUrl, Astro.url).toString();
+
 ---
 
-<Layout title={meta.title} description={meta.description}>
+<Layout title={meta.title} description={meta.description} metas={[
+  {property: "og:url", content: canonicalURL},
+  {property: "og:type", content: "website"},
+  {property: "og:title", content: meta.title},
+  {property: "og:description", content: meta.description},
+  {property: "og:image", content: socialImageURL},
+  {name: "twitter:card", content: "summary_large_image"},
+  {property: "twitter:domain", content: "unioncoruna.com"},
+  {property: "twitter:url", content: canonicalURL},
+  {name: "twitter:title", content: meta.title},
+  {name: "twitter:description", content: meta.description},
+  {name: "twitter:image", content: socialImageURL},
+  ]}>
   <Header title={companyName} slogan={sector}>
     <!-- <img
       src={logoUrl}

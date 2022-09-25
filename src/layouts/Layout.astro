@@ -2,9 +2,14 @@
 export interface Props {
   title: string;
   description?: string;
+  metas:{
+    name?: string;
+    property?: string;
+    content: string;
+  }[]
 }
 
-const { title, description = "Socio de Unión Coruña" } = Astro.props;
+const { title, description = "Socio de Unión Coruña", metas = [] } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -15,6 +20,7 @@ const { title, description = "Socio de Unión Coruña" } = Astro.props;
     <meta name="description" content={description} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    {metas.map(meta=><meta {...meta}/>)}
     <title>{title}</title>
   </head>
   <body class="bg-gray-50">
