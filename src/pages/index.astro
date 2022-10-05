@@ -14,6 +14,19 @@ function shuffleArray(array: Array<Company>) {
 
 const shuffledAssociates = associates.slice(0);
 shuffleArray(shuffledAssociates);
+const canonicalURL = new URL(
+  Astro.url.pathname,
+  "https://unioncoruna.com"
+).toString();
+
+const socialImageURL = new URL(
+  "/images/jAyckLebI-k.webp",
+  "https://unioncoruna.com"
+).toString();
+const meta = {
+  title: `Unión Coruña`,
+  description: `Grupo de empresas de A Coruña`,
+};
 ---
 
 <!--
@@ -35,6 +48,19 @@ shuffleArray(shuffledAssociates);
 <Layout
   title="Unión Coruña"
   description="Grupo de empresas que se ayudan mutuamente"
+  metas={[
+    { property: "og:url", content: canonicalURL },
+    { property: "og:type", content: "website" },
+    { property: "og:title", content: meta.title },
+    { property: "og:description", content: meta.description },
+    { property: "og:image", content: socialImageURL },
+    { name: "twitter:card", content: "summary_large_image" },
+    { property: "twitter:domain", content: "unioncoruna.com" },
+    { property: "twitter:url", content: canonicalURL },
+    { name: "twitter:title", content: meta.title },
+    { name: "twitter:description", content: meta.description },
+    { name: "twitter:image", content: socialImageURL },
+  ]}
 >
   <div class="bg-white">
     <Header
