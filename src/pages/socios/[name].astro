@@ -35,25 +35,31 @@ const meta = {
 
 // const canonicalURL = new URL(Astro.url.pathname, Astro.site).toString();
 // const canonicalURL = new URL(Astro.url.pathname, 'https://unioncoruna.com').toString();
-const canonicalURL = new URL(Astro.url.pathname, 'https://unioncoruna.com').toString();
+const canonicalURL = new URL(
+  Astro.url.pathname,
+  "https://unioncoruna.com"
+).toString();
 
-const socialImageURL = new URL(logoUrl, 'https://unioncoruna.com').toString();
-
+const socialImageURL = new URL(logoUrl, "https://unioncoruna.com").toString();
 ---
 
-<Layout title={meta.title} description={meta.description} metas={[
-  {property: "og:url", content: canonicalURL},
-  {property: "og:type", content: "website"},
-  {property: "og:title", content: meta.title},
-  {property: "og:description", content: meta.description},
-  {property: "og:image", content: socialImageURL},
-  {name: "twitter:card", content: "summary_large_image"},
-  {property: "twitter:domain", content: "unioncoruna.com"},
-  {property: "twitter:url", content: canonicalURL},
-  {name: "twitter:title", content: meta.title},
-  {name: "twitter:description", content: meta.description},
-  {name: "twitter:image", content: socialImageURL},
-  ]}>
+<Layout
+  title={meta.title}
+  description={meta.description}
+  metas={[
+    { property: "og:url", content: canonicalURL },
+    { property: "og:type", content: "website" },
+    { property: "og:title", content: meta.title },
+    { property: "og:description", content: meta.description },
+    { property: "og:image", content: socialImageURL },
+    { name: "twitter:card", content: "summary_large_image" },
+    { property: "twitter:domain", content: "unioncoruna.com" },
+    { property: "twitter:url", content: canonicalURL },
+    { name: "twitter:title", content: meta.title },
+    { name: "twitter:description", content: meta.description },
+    { name: "twitter:image", content: socialImageURL },
+  ]}
+>
   <Header title={companyName} slogan={sector}>
     <!-- <img
       src={logoUrl}
@@ -84,11 +90,15 @@ const socialImageURL = new URL(logoUrl, 'https://unioncoruna.com').toString();
           </div>
 
           {
-            services && (
+            services && services.length > 0 && (
               <DescriptionList title="Productos y servicios" data={services} />
             )
           }
-          {needs && <DescriptionList title="Necesidades" data={needs} />}
+          {
+            needs && needs.length > 0 && (
+              <DescriptionList title="Necesidades" data={needs} />
+            )
+          }
 
           <!-- <div class="mx-auto mt-10 flex max-w-prose text-base lg:max-w-none">
             <div class="rounded-md shadow">

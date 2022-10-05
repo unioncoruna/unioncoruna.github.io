@@ -46,7 +46,7 @@ const { associate, contact, logoUrl, companyName } = Astro.props;
   </svg>
   <section class="relative rounded-lg bg-white shadow-lg">
     <div class="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
-      {logoUrl && <img src={logoUrl} alt="Workcation" class="h-8" />}
+      {logoUrl && <img src={logoUrl} alt="Workcation" class="h-16 mx-auto" />}
       <!-- <div> -->
       <!-- <div class="overflow-hidden bg-white shadow sm:rounded-lg">
         <div class="px-4 py-5 sm:px-6"> -->
@@ -59,38 +59,47 @@ const { associate, contact, logoUrl, companyName } = Astro.props;
       <!-- </div> -->
       <div class="border-t border-gray-200 mt-4 pt-4">
         <dl class="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2">
-          <div class="sm:col-span-1">
-            <dt class="text-sm font-medium text-gray-500">Razón Social:</dt>
-            <dd class="mt-1 text-sm text-gray-900">
-              {contact.formalName}
-            </dd>
-          </div>
-          <div class="sm:col-span-1">
-            <dt class="text-sm font-medium text-gray-500">Sitio web:</dt>
-            <dd class="mt-1 text-sm text-gray-900">
-              <a href={`https://${contact.web}`}>
-                {contact.web}
-              </a>
-            </dd>
-          </div>
-          <div class="sm:col-span-1">
-            <dt class="text-sm font-medium text-gray-500">
-              Correo electrónico:
-            </dt>
-            <dd class="mt-1 text-sm text-gray-900 break-words">
-              <a href={`mailto://${contact.email}`}>
-                {contact.email}
-              </a>
-            </dd>
-          </div>
-          <div class="sm:col-span-1">
-            <dt class="text-sm font-medium text-gray-500">Teléfono</dt>
-            <dd class="mt-1 text-sm text-gray-900">
-              <a href={`tel://${contact.phone}`}>
-                {contact.phone}
-              </a>
-            </dd>
-          </div>
+          {
+            contact.formalName && (
+              <div class="sm:col-span-1">
+                <dt class="text-sm font-medium text-gray-500">Razón Social:</dt>
+                <dd class="mt-1 text-sm text-gray-900">{contact.formalName}</dd>
+              </div>
+            )
+          }
+          {
+            contact.web && (
+              <div class="sm:col-span-1">
+                <dt class="text-sm font-medium text-gray-500">Sitio web:</dt>
+                <dd class="mt-1 text-sm text-gray-900">
+                  <a href={`https://${contact.web}`}>{contact.web}</a>
+                </dd>
+              </div>
+            )
+          }
+
+          {
+            contact.email && (
+              <div class="sm:col-span-1">
+                <dt class="text-sm font-medium text-gray-500">
+                  Correo electrónico:
+                </dt>
+                <dd class="mt-1 text-sm text-gray-900 break-words">
+                  <a href={`mailto://${contact.email}`}>{contact.email}</a>
+                </dd>
+              </div>
+            )
+          }
+          {
+            contact.phone && (
+              <div class="sm:col-span-1">
+                <dt class="text-sm font-medium text-gray-500">Teléfono</dt>
+                <dd class="mt-1 text-sm text-gray-900">
+                  <a href={`tel://${contact.phone}`}>{contact.phone}</a>
+                </dd>
+              </div>
+            )
+          }
           <!-- <div class="sm:col-span-1">
             <dt class="text-sm font-medium text-gray-500">
               Salary expectation
@@ -142,7 +151,7 @@ const { associate, contact, logoUrl, companyName } = Astro.props;
 
         <img
           class="h-12 w-12 rounded-full bg-indigo-300 sm:h-20 sm:w-20 object-cover"
-          src={associate.imgUrl ?? '/images/avatar/No_avatar.png'}
+          src={associate.imgUrl ?? "/images/avatar/No_avatar.png"}
           alt={associate.name}
         />
       </span>

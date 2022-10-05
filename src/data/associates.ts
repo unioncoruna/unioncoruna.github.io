@@ -20,6 +20,7 @@ export type Company = {
   services?: { name: string; description?: string }[];
   needs?: { name: string; description?: string }[];
   description: string;
+  address?: string;
 };
 export const associates: Company[] = [
   {
@@ -162,7 +163,8 @@ export const associates: Company[] = [
       },
     ],
   },
-  { // Comercial Diresa
+  {
+    // Comercial Diresa
     companySlug: "diresa",
     companyName: "Comercial Diresa",
     logoUrl: "/images/logos/logo_diresa.webp",
@@ -220,7 +222,8 @@ export const associates: Company[] = [
       },
     ],
   },
-  { // Juifi
+  {
+    // Juifi
     companySlug: "juifi",
     companyName: "JUIFI",
     logoUrl: "/images/logos/Nuevo_Logo_Juifi.webp",
@@ -259,6 +262,7 @@ export const associates: Company[] = [
     ],
   },
   {
+    // Caviar
     companySlug: "caviar-calvisius",
     companyName: "Caviar Calvisius Distribución GAL",
     logoUrl: "/images/logos/logo_caviar_calvisius-v2.webp",
@@ -304,5 +308,29 @@ export const associates: Company[] = [
         name: "Clientes (particulares y empresas)",
       },
     ],
+  },
+  {
+    // Rebeca
+    companySlug: "rebeca-gil",
+    companyName: "Rebeca Gil Liarte, centro de psicología",
+    logoUrl: "/images/logos/placa_rebeca.png",
+    sector: "Salud",
+    slogan: "",
+    description: `Servicio de psicología sanitaria de adultos con terapia cognitivos conductual. 
+    Y servicio de psicología sanitaria y psicopedagogía a niños y adolescentes.`,
+    address: "Payo Gomez 16, 5ºB, A Coruña, A Coruña, 15004, Spain",
+    associate: {
+      name: "Rebeca Gil Liarte",
+      imgUrl: "/images/avatar/rebeca.webp",
+      role: "Directora",
+    },
+    contact: {
+      formalName: "",
+      email: "",
+      web: undefined,
+      phone: "",
+    },
+    services: [],
+    needs: [],
   },
 ];
