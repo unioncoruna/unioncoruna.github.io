@@ -333,4 +333,40 @@ export const associates: Company[] = [
     services: [],
     needs: [],
   },
+  {
+    // Mario
+    companySlug: "ok-legal-abogados",
+    companyName: "OK Legal Abogados",
+    logoUrl: "/images/logos/ok-legal.webp",
+    sector: "Abogacía",
+    slogan: "Servicios Jurídicos",
+    description: `Ofrecemos servicios jurídicos de todo tipo. Contamos con expertos en distintas áreas de capital importancia para
+    nuestra actividad, tales como economistas, mediadores y administradores concursales, peritos, etc. Esto nos
+    permite reaccionar eficazmente ante cualquier requerimiento.`,
+    address: "C/José Echegaray, 4-8ºd, A Coruña, A Coruña, 15006, Spain",
+    associate: {
+      name: "Mario Fernández",
+      imgUrl: "/images/avatar/mario.webp",
+      role: "Gerente",
+    },
+    contact: {
+      formalName: "",
+      email: "contacto@oklegalabogados.es",
+      web: "https://www.oklegalabogados.es",
+      phone: "675590964",
+    },
+    services: [
+      { name: "Gastos Hipotecarios." },
+      { name: "Cláusulas Suelo." },
+      { name: "Tarjetas de crédito." },
+      { name: "Responsabilidad civil por daños." },
+      { name: "Contratos." },
+      { name: "Accidentes." },
+      { name: "Concursos de acreedores." },
+      { name: "Segunda oportunidad." },
+      { name: "Herencias." },
+      { name: "etc." },
+    ],
+    needs: [],
+  },
 ];
