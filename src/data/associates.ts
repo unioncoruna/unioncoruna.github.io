@@ -352,7 +352,7 @@ export const associates: Company[] = [
     contact: {
       formalName: "",
       email: "contacto@oklegalabogados.es",
-      web: "https://www.oklegalabogados.es",
+      web: "www.oklegalabogados.es",
       phone: "675590964",
     },
     services: [
@@ -368,5 +368,38 @@ export const associates: Company[] = [
       { name: "etc." },
     ],
     needs: [],
+  },
+  {
+    // Tap 3
+    companySlug: "tap3-ventanas",
+    companyName: "TAP3 Ventanas",
+    logoUrl: "/images/logos/tap3.svg",
+    sector: "Ventanas, puertas y verandas",
+    slogan: "Las mejores ventanas del mercado",
+    description: `Tap3 Ventanas es la suma de un grupo de profesionales con dilatada experiencia en el sector de la carpintería metálica
+      dedicados a la Distribución de productos de la marca FINSTRAL, industria europea líder en la técnica moderna de cerramientos.`,
+    address: "RONDA DE NELLE, 133 BAJO IZQ., A CORUÑA, A CORUÑA, 15010, Spain",
+    associate: {
+      name: "Jose Fernández Martínez",
+      imgUrl: "/images/avatar/jose_fernandez.webp",
+      role: "Administrador",
+    },
+    contact: {
+      formalName: "TAP3 Servicios Integrales S.L.",
+      email: "info@grupotap.com",
+      web: "www.grupotap.com",
+      phone: "881243435",
+    },
+    services: [
+      { name: "Puertas, ventanas, verandas y persianas." },
+      { name: "Asesoramiento, medición, instalación." },
+    ],
+    needs: [
+      {
+        name: "Clientes",
+        description:
+          "Buscamos clientes interesados en la más alta calidad, prestaciones y estética para la carpintería exterior.",
+      },
+    ],
   },
 ];
