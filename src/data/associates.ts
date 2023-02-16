@@ -438,4 +438,39 @@ export const associates: Company[] = [
       },
     ],
   },
+  {
+    // DelaO
+    companySlug: "banda-delao",
+    companyName: "Banda DelaO",
+    logoUrl: "/images/logos/logo_delao.webp",
+    sector: "Entretenimiento, música en directo",
+    slogan: "Guateque rock",
+    description: `<p>Espectáculo retroshow 60s 70s 80s y alguna sorpresa, guateque rock con músicos profesionales de amplio recorrido.</p>
+                  <p>Canciones que son himnos y una comunicación fuerte y viva con el público ejecutando e interpretando los temas.</p>
+                  <p>Desde eventos privados a fiestas de ayuntamientos y locales de hostelería.</p>`,
+    address: "A coruña, A coruña, A coruña, 1503, Spain",
+    associate: {
+      name: "Carlos Castro Villar",
+      imgUrl: "/images/avatar/carlos_castro_villar.webp",
+      role: "Vocalista",
+    },
+    contact: {
+      formalName: "",
+      email: "",
+      web: "https://www.facebook.com/BandaDLORetroshow",
+      phone: "680367429",
+    },
+    services: [{ name: "Conciertos bajo demanda con formato 4+." }],
+    needs: [
+      {
+        name: "Conciertos",
+        description: "Siempre que estemos disponibles, bienvenidos sean.",
+      },
+      {
+        name: "Representación",
+        description:
+          "Con objeto de organizar mejor y crear rutas y giras en las provincias.",
+      },
+    ],
+  },
 ];
