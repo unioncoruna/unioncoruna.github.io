@@ -36,16 +36,21 @@ const { title, slogan, companyName } = Astro.props;
     class="flex flex-col items-center sm:flex-row relative max-w-7xl mx-auto px-4"
   >
     <slot />
-    <div class="grow pt-4 sm:py-24 sm:px-6 lg:px-8">
+    <div class="grow pt-4 sm:py-16 sm:px-6 lg:px-8">
       <div class="text-center">
         <!-- <h2 class="text-lg font-semibold text-indigo-600">Pricing</h2> -->
+        <img
+          src="/images/logos/logo_uc.svg"
+          alt="Logo"
+          class="mx-auto w-20 sm:w-28 mb-2 -mt-2 sm:-mt-8"
+        />
         <h1
           class="mt-1 text-3xl font-bold tracking-tight text-gray-800 sm:text-5xl lg:text-6xl text-ellipsis overflow-hidden sm:overflow-visible max-w-[94vw]"
         >
           <!-- asesorenergéticolargo.info -->
           {title ?? "Union Coruña"}
         </h1>
-        <h2 class="mx-auto mt-5 max-w-xl text-xl text-gray-800">
+        <h2 class="mx-auto mt-5 max-w-xl text-lg sm:text-2xl text-gray-800">
           {slogan ?? "Trabajamos juntos para facilitarte la vida."}
         </h2>
       </div>
