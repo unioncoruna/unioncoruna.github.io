@@ -402,4 +402,40 @@ export const associates: Company[] = [
       },
     ],
   },
+  {
+    // Alarkom Security Systems
+    companySlug: "alarcom-security-systems",
+    companyName: "Alarköm Security Systems",
+    logoUrl: "/images/logos/logo_alarkom.webp",
+    sector: "Sistemas de Seguridad",
+    slogan: "La seguridad ante todo",
+    description: `Empresa gallega de seguridad para todo tipo de instalaciones. Residencial y todo tipo de negocios`,
+    address: "PARROQUIA DE LUBRE PARC.R.20, Bergondo, A Coruña, 15165, Spain",
+    associate: {
+      name: "Jose",
+      imgUrl: "/images/avatar/Jose_Alarkom.webp",
+      role: "Asesor de Seguridad",
+    },
+    contact: {
+      formalName: "",
+      email: "ja.sanchez@alarkom.es",
+      web: "www.alarkom.es",
+      phone: "607274860",
+    },
+    services: [
+      { name: "Alarmas" },
+      { name: "Sistemas CCTV" },
+      { name: "Análisis de video" },
+      { name: "Controles de acceso" },
+      { name: "Control de personas" },
+      { name: "Central receptora propia en Bergondo" },
+    ],
+    needs: [
+      {
+        name: "Clientes",
+        description:
+          "Todas las personas que les interese proteger su vivienda o su negocio.",
+      },
+    ],
+  },
 ];
