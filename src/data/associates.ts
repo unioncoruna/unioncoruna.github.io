@@ -28,7 +28,7 @@ export const associates: Company[] = [
     companySlug: "galicloud",
     companyName: "Galicloud",
 
-    logoUrl: "/images/logos/galicloud_color_sin_tagline.png",
+    logoUrl: "/images/logos/galicloud_color_sin_tagline_640x258.webp",
     sector: "Desarrollo de software",
     slogan:
       "Desarrollamos Software para empresas. Especializados en aplicaciones web.",
@@ -84,7 +84,7 @@ export const associates: Company[] = [
         Construcción de casas de consumo energético casi nulo.`,
     associate: {
       name: "Jesús López Carreira",
-      imgUrl: "/images/avatar/JLC-DOBLE_LOGO_CENTRADO.jpeg",
+      imgUrl: "/images/avatar/JLC-DOBLE_LOGO_CENTRADO_200x200.webp",
       role: "CEO",
     },
     contact: {
@@ -136,7 +136,7 @@ export const associates: Company[] = [
     description: `Publicidad en Google, Youtube, Redes Sociales. Automatizaciones de email marketing y embudos de venta.`,
     associate: {
       name: "Julio J. Gallego Sáenz",
-      imgUrl: "/images/avatar/JulioGallego_popup.jpg",
+      imgUrl: "/images/avatar/JulioGallego_popup_200x200.webp",
       role: "CEO",
     },
     contact: {
@@ -181,7 +181,7 @@ export const associates: Company[] = [
 <p>Hoy en día, gracias a nuestro desarrollo digital, no sólo abarcamos la geografía de Ferrol y Galicia, si no que tenemos un alcance nacional, sirviendo productos de soldadura e industriales en toda España.</p>`,
     associate: {
       name: "Alejandro M. Santos",
-      imgUrl: "/images/avatar/AlejandroMSantos.webp",
+      imgUrl: "/images/avatar/AlejandroMSantos_200x200.webp",
       role: "CMO",
     },
     contact: {
@@ -321,7 +321,7 @@ export const associates: Company[] = [
     address: "Payo Gomez 16, 5ºB, A Coruña, A Coruña, 15004, Spain",
     associate: {
       name: "Rebeca Gil Liarte",
-      imgUrl: "/images/avatar/rebeca.webp",
+      imgUrl: "/images/avatar/rebeca_200x213.webp",
       role: "Directora",
     },
     contact: {
@@ -346,7 +346,7 @@ export const associates: Company[] = [
     address: "C/José Echegaray, 4-8ºd, A Coruña, A Coruña, 15006, Spain",
     associate: {
       name: "Mario Fernández",
-      imgUrl: "/images/avatar/mario.webp",
+      imgUrl: "/images/avatar/mario_200x200.webp",
       role: "Gerente",
     },
     contact: {
@@ -381,7 +381,7 @@ export const associates: Company[] = [
     address: "RONDA DE NELLE, 133 BAJO IZQ., A CORUÑA, A CORUÑA, 15010, Spain",
     associate: {
       name: "Jose Fernández Martínez",
-      imgUrl: "/images/avatar/jose_fernandez.webp",
+      imgUrl: "/images/avatar/jose_fernandez_200x250.webp",
       role: "Administrador",
     },
     contact: {
@@ -413,7 +413,7 @@ export const associates: Company[] = [
     address: "PARROQUIA DE LUBRE PARC.R.20, Bergondo, A Coruña, 15165, Spain",
     associate: {
       name: "Jose",
-      imgUrl: "/images/avatar/Jose_Alarkom.webp",
+      imgUrl: "/images/avatar/Jose_Alarkom_200x200.webp",
       role: "Asesor de Seguridad",
     },
     contact: {
@@ -471,6 +471,88 @@ export const associates: Company[] = [
         description:
           "Con objeto de organizar mejor y crear rutas y giras en las provincias.",
       },
+    ],
+  },
+  {
+    // Sysega
+    companySlug: "grupo-sysega",
+    companyName: "Grupo Sysega",
+    logoUrl: "/images/logos/LOGO_GRUPO_SYSEGA_PNG_TRANSPARENTE_402X402.webp",
+    sector: "Marketing Online y Herramientas Digitales",
+    slogan: "Marketing Online y Herramientas Digitales",
+    description: `<p>Acercamos el Marketing Online y las Herramientas Digitales a las pequeñas empresas con precios aptos para cualquier negocio local, y con un soporte totalmente personalizado.</p>`,
+    address:
+      "Calle Miramar-Castrillón, 11-1ºD, A Coruña, A Coruña, 15009, Spain",
+    associate: {
+      name: "Manuel González Uzal",
+      imgUrl: "/images/avatar/ManuelGonzalezUzal.webp",
+      role: "Gerente",
+    },
+    contact: {
+      formalName: "Sysega Coruña, S.L.",
+      email: "contacto@gruposysega.es",
+      web: "https://gruposysega.es/",
+      phone: "615354155",
+    },
+    services: [
+      { name: "Publicidad en Redes Sociales (Facebook Ads y Google Ads)" },
+      { name: "Desarrollo Web y Tienda Online a medida" },
+      { name: "Servicio de Comunity Manager" },
+      {
+        name: "Desarrollo de imagen corporativa, logos, tarjetas de visitas, ...",
+      },
+      { name: "Servicio de Video" },
+      { name: "Marketing corporativo" },
+      { name: "Fotografía de producto, corporativa" },
+      { name: "Fotografía y vídeo gastronómico" },
+      { name: "Sistemas de Pedidos Online para Restaurantes y Bares" },
+      { name: "Constructor de Aplicaciones Móviles en PWA" },
+      {
+        name: "Constructor de Webs, Embudos de Venta, Tiendas Online, Membresías, ...",
+      },
+    ],
+    needs: [
+      {
+        name: "Clientes",
+        description: `Cualquier negocio que necesite cubrir cualquier necesidad de las indicadas en nuestros servicios.`,
+      },
+    ],
+  },
+  {
+    // Dalmau
+    companySlug: "dalmau-seguros",
+    companyName: "Dalmau Seguros",
+    logoUrl: "/images/logos/dalmau-gafas.webp",
+    sector: "Seguros",
+    slogan: "Asegúrate ya",
+    description: `<p>Asesoramiento y contratación de todo tipo de seguros.</p>
+                  <p>Ya sea para proteger el hogar, el negocio o la salud, mi objetivo es brindar una atención personalizada y soluciones de seguro asequibles que satisfagan necesidades específicas.</p>`,
+    address: "Calle oleoducto, 2, bajo, A coruña, A coruña, 15009, Spain",
+    associate: {
+      name: "Dalmau",
+      imgUrl: "/images/avatar/Dalmau_200x200.webp",
+      role: "Agente de seguros",
+    },
+    contact: {
+      formalName: "",
+      email: "dalmauiferreiro@gmail.com",
+      web: undefined,
+      phone: "649933430",
+    },
+    services: [
+      { name: "Asesoramiento y contratación de todo tipo de seguros" },
+    ],
+    needs: [
+      {
+        name: "Clientes",
+        description: `Personas o empresas que necesiten seguros de cualquier tipo.`,
+      },
+      { name: "De accidentes" },
+      { name: "Del hogar" },
+      { name: "De responsabilidad civil" },
+      { name: "De vehículos" },
+      { name: "De salud" },
+      { name: "etc." },
     ],
   },
 ];
