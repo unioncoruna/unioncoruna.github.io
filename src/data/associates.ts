@@ -80,7 +80,7 @@ export const associates: Company[] = [
     description: `Abaratar facturas de electricidad y gas.
         Instalaciones fotovoltaicas, incluso sin inversión.
         Reformas integrales de edificios, sin inversión por parte del cliente.
-        Movilidad eléctrica.
+        Rehabilitación de edificios con fondos Next Generation,
         Construcción de casas de consumo energético casi nulo.`,
     associate: {
       name: "Jesús López Carreira",
@@ -108,9 +108,8 @@ export const associates: Company[] = [
           "Buscando la mayor eficiencia energética y sin inversión alguna por parte de los propietarios.",
       },
       {
-        name: "Movilidad eléctrica",
-        description:
-          "Cargadores de vehículos, marquesinas, bicicletas y patines, eléctricos.",
+        name: "Rehabilitación de edificios",
+        description: "Aprovechando los fondos Next Generation.",
       },
       {
         name: "PassivHaus",
