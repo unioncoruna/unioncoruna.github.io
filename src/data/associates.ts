@@ -314,7 +314,7 @@ export const associates: Company[] = [
     companyName: "Rebeca Gil Liarte, centro de psicología",
     logoUrl: "/images/logos/placa_rebeca.png",
     sector: "Salud",
-    slogan: "",
+    slogan: "Psicología general sanitaria",
     description: `Servicio de psicología sanitaria de adultos con terapia cognitivos conductual. 
     Y servicio de psicología sanitaria y psicopedagogía a niños y adolescentes.`,
     address: "Payo Gomez 16, 5ºB, A Coruña, A Coruña, 15004, Spain",
@@ -325,11 +325,16 @@ export const associates: Company[] = [
     },
     contact: {
       formalName: "",
-      email: "",
-      web: undefined,
-      phone: "",
+      email: "rgil@cop.es",
+      web: "https://rebecagilpsicologos.com/",
+      phone: "655526227",
     },
-    services: [],
+    services: [
+      { name: "Psicología de adultos" },
+      { name: "Psicología de niños y adolescentes" },
+      { name: "Evaluaciones psicológicas y psicopedagógicas" },
+      { name: "Psicopedagogía" },
+    ],
     needs: [],
   },
   {
