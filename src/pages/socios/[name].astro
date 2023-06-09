@@ -60,24 +60,11 @@ const socialImageURL = new URL(logoUrl, "https://unioncoruna.com").toString();
     { name: "twitter:image", content: socialImageURL },
   ]}
 >
-  <Header title={companyName} slogan={sector}>
-    <!-- <img
-      src={logoUrl}
-      alt={`Logo de ${companyName}`}
-      class="mx-auto sm:mx-0 py-4 lg:px-8 w-64 sm:w-80 drop-shadow-glow"
-    /> -->
-  </Header>
+  <Header title={companyName} slogan={sector} />
   <BreadCrumb companyName={companyName} href={`/socios/${name}`} />
 
   <div class="overflow-hidden bg-gray-50 py-8">
     <div class="mx-auto max-w-7xl space-y-8 px-4 sm:px-6 lg:px-8">
-      <!-- <div
-        class="relative z-10 mx-auto max-w-prose text-base lg:mx-0 lg:max-w-5xl lg:pr-72"
-      >
-        <p class="text-lg text-gray-500">
-          {slogan}
-        </p>
-      </div> -->
       <div class="grid lg:grid-cols-2 lg:items-start gap-8">
         <div class="relative z-10 order-1 lg:order-none">
           <p class="text-lg text-gray-500 pb-8">
@@ -86,8 +73,7 @@ const socialImageURL = new URL(logoUrl, "https://unioncoruna.com").toString();
           <div
             class="prose prose-indigo mx-auto text-gray-500 lg:max-w-none"
             set:html={description}
-          >
-          </div>
+          />
 
           {
             services && services.length > 0 && (
@@ -99,23 +85,6 @@ const socialImageURL = new URL(logoUrl, "https://unioncoruna.com").toString();
               <DescriptionList title="Necesidades" data={needs} />
             )
           }
-
-          <!-- <div class="mx-auto mt-10 flex max-w-prose text-base lg:max-w-none">
-            <div class="rounded-md shadow">
-              <a
-                href="#"
-                class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
-                >Contact sales</a
-              >
-            </div>
-            <div class="ml-4 rounded-md shadow">
-              <a
-                href="#"
-                class="flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50"
-                >Learn more</a
-              >
-            </div>
-          </div> -->
         </div>
         <CompanyProfile
           contact={contact}
