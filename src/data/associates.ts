@@ -71,11 +71,12 @@ export const associates: Company[] = [
       "Nos dedicamos al desarrollo de software y desarrollo de apps. Utilizamos y dominamos algunas de las tecnologías webs más modernas y demandadas. Somos expertos en desarrollo web y también impartimos formación a empresas en las últimas tecnologías web.",
   },
   {
-    // Asesor energético
+    // Jesus Asesor energético
     companySlug: "asesorenergetico.info",
     companyName: "Asesorenergetico.info",
     logoUrl: "/images/logos/logo_asesor_energetico.svg",
-    sector: "Eficiencia energética, movilidad eléctrica y Passivhaus",
+    sector:
+      "Eficiencia energética, construcción Passivhaus, Protección de datos y Financiación alternativa",
     slogan: "Eficiencia energética, movilidad eléctrica y Passivhaus",
     description: `Abaratar facturas de electricidad y gas.
         Instalaciones fotovoltaicas, incluso sin inversión.
