@@ -2,7 +2,7 @@
 import { associates } from "../../data/associates";
 import Layout from "../../layouts/Layout.astro";
 import Header from "../../components/Header.astro";
-import Testimonial from "../../components/Testimonial.astro";
+// import Testimonial from "../../components/Testimonial.astro";
 import CompanyProfile from "../../components/CompanyProfile.astro";
 import BreadCrumb from "../../components/BreadCrumb.astro";
 import DescriptionList from "../../components/DescriptionList.astro";
@@ -60,7 +60,7 @@ const socialImageURL = new URL(logoUrl, "https://unioncoruna.com").toString();
     { name: "twitter:image", content: socialImageURL },
   ]}
 >
-  <Header title={companyName} slogan={sector} />
+  <Header title={`Unión Coruña · ${companyName}`} slogan={sector} />
   <BreadCrumb companyName={companyName} href={`/socios/${name}`} />
 
   <div class="overflow-hidden bg-gray-50 py-8">

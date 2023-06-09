@@ -1,10 +1,10 @@
 import { defineConfig } from "astro/config";
-
 import tailwind from "@astrojs/tailwind";
+
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind()],
-  site: "https://unioncoruna.github.io",
-  // base: "/unioncoruna.github.io",
+  integrations: [tailwind(), sitemap()],
+  site: "https://unioncoruna.com", // base: "/unioncoruna.github.io",
 });
