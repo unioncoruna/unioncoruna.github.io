@@ -565,9 +565,9 @@ export const associates: Company[] = [
     companyName: "Moncada",
     logoUrl: "/images/logos/moncada.webp",
     sector: "Construcción - Decoración",
-    slogan: "",
-    description: `<p>Somos mayoristas de barras, rieles, estores, persianas verticales, venecianas y todo tipo de accesorios para cortinas.</p>
-                  <p>Asesoramos, medimos, suministramos e instalamos todo tipo de soluciones en materia de protección solar y/o decoracion de ventanas para el profesional de la construcción-decoracion.</p>
+    slogan: "Decoramos tus ventanas, vestimos tus ideas",
+    description: `<p>Somos mayoristas de cortinas técnicas, rieles y automatismos para la protección solar y/o decoración de la ventana.</p>
+                  <p>Damos soluciones a medida ofeciendo una amplia gama de articulos: estores enrollables, paneles japoneses, persianas venecianas, persianas verticales, noche y dia, rieles barras...</p>
                   `,
     address:
       "Av de Finisterre 444 - 1B CP 15008, A Coruña, A Coruña, A Coruña, Spain",
@@ -583,32 +583,68 @@ export const associates: Company[] = [
       phone: "981262825",
     },
     services: [
-      { name: "Rieles/barras de cortina" },
+      { name: "Estores Enrollables" },
+      { name: "Cortinas tecnicas" },
+      { name: "Barras decorativas" },
+      { name: "Rieles de cortinas" },
+      { name: "Estores textiles pachetto/con varillas" },
+      { name: "Portavisillos" },
+      { name: "Garfios/ganchos de Cortina" },
+      { name: "Cintas de Cortina" },
+      { name: "Bastones de Cortina" },
       {
-        name: "Cintas, ganchos, alzapaños,portavisillosy en general todo tipo de accesorios para cortinas",
+        name: "Contrapesos, tensores, cordones, correderas y en general todo tipo de componentes para barras, rieles y accesorios de cortinas",
       },
-      { name: "Estores enrollables screen/opacos/textiles" },
-      { name: "Persianas verticales" },
-      { name: "Persianas venecianas" },
-      { name: "Paneles japoneses" },
-      { name: "Confeccion de cortinas y estores pachetto" },
-      { name: "Instalación" },
-      { name: "Medicion" },
+      { name: "Servicio de medición" },
+      { name: "Servicio de asesoramiento" },
+      { name: "Servicio de instalación" },
+
       { name: "Asesoramiento" },
     ],
     needs: [
-      {
-        name: "Clientes",
-        description: `Personas o empresas que necesiten seguros de cualquier tipo.`,
-      },
-
-      { name: "Profesionales de la construccion-decoración" },
-      { name: "Estudios de arquitectura" },
-      { name: "Inmobiliarias" },
+      { name: "Decoradoras" },
       { name: "Empresas de reformas" },
-      { name: "Tapicerias" },
-      { name: "Ferreterías" },
-      { name: "Interioristas con o sin tienda" },
+      { name: "Carpinterias" },
+      { name: "Tapiceros" },
+      { name: "Interioristas" },
+      { name: "Comercios de Textil-Hogar" },
+      { name: "Constructores" },
+      { name: "Arquitectos" },
+      { name: "Mueblerías" },
+      { name: "Distribuidores de ventanas" },
+      { name: "Especialistas en domótica" },
     ],
+  },
+  {
+    // Irene SOA Arquitectos
+    companySlug: "soa-arquitectos",
+    companyName: "SOA Arquitectos",
+    logoUrl: "/images/logos/LOGO_SOA_arquitectos.webp",
+    sector: "Arquitectura",
+    slogan: "",
+    description: `<p>SOA Arquitectos se dedica a ofrecer servicios relacionados con la arquitectura y el diseño arquitectónico y gráfico.</p>
+                  `,
+    address: "C/Payo Gómez Nº16 - 4ºE, A Coruña, A Coruña, 15004, Spain",
+    associate: {
+      name: "Irene García Timiraos",
+      imgUrl: "/images/avatar/Irene_200x200.webp",
+      role: "Arquitecta",
+    },
+    contact: {
+      formalName: "SOA Arquitectos",
+      email: "irene@soaarquitectos.com",
+      web: "soaarquitectos.com",
+      phone: "670899724",
+    },
+    services: [
+      {
+        name: "Arquitectura: Proyectos de ejecución de obra nueva y rehabilitación. Proyectos de reforma. Interiorismo.",
+      },
+      { name: "Infografías" },
+      { name: "Diseño gráfico" },
+      { name: "Estudios: Viabilidad de edificación, CEE, IEE." },
+      { name: "Direcciones de obra" },
+    ],
+    needs: [],
   },
 ];
