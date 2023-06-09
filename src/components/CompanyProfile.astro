@@ -8,6 +8,12 @@ export interface Props {
   companyName: string;
 }
 const { associate, contact, logoUrl, companyName } = Astro.props;
+const webUrl = contact.web?.startsWith("http://")
+  ? contact.web
+  : `https://${contact.web}`;
+const webLabel = contact.web?.startsWith("http://")
+  ? contact.web.replace("http://", "")
+  : contact.web;
 ---
 
 <div
@@ -72,7 +78,7 @@ const { associate, contact, logoUrl, companyName } = Astro.props;
               <div class="sm:col-span-1">
                 <dt class="text-sm font-medium text-gray-500">Sitio web:</dt>
                 <dd class="mt-1 text-sm text-gray-900">
-                  <a href={`https://${contact.web}`}>{contact.web}</a>
+                  <a href={webUrl}>{webLabel}</a>
                 </dd>
               </div>
             )

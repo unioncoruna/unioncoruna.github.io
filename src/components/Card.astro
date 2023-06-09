@@ -14,7 +14,7 @@ const { href, companyName, associateName, description, logoUrl, associate } =
   Astro.props;
 ---
 
-<li class="shadow-lg p-8 rounded-lg outline outline-1 outline-gray-300">
+<li class="shadow-lg p-6 md:p-8 rounded-lg outline outline-1 outline-gray-300">
   <a href={href} class="">
     <div class="aspect-w-3 aspect-h-2 w-full h-auto relative">
       <!-- src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" -->
@@ -24,18 +24,20 @@ const { href, companyName, associateName, description, logoUrl, associate } =
         alt=""
       />
     </div>
-    <div class="flex justify-between">
+    <div class="flex justify-between gap-1 mt-2">
       <div class="text-lg font-medium leading-6 relative grow break-all">
-        <h3 class="mt-2 break-words">{companyName}</h3>
-        <p class="text-indigo-600 mt-2 break-words">{associateName}</p>
+        <h3 class="mt-2 break-words keep-words">{companyName}</h3>
+        <p class="text-indigo-600 mt-2 break-words keep-words">
+          {associateName}
+        </p>
       </div>
       {
         associate && (
-          <div class="w-20 basis-20 mb-4">
+          <div class="w-20 basis-20 mb-4 flex-shrink-0">
             <span class="rounded-full min-w-fit min-h-fit transform ">
               <img
                 class="h-20 w-20 rounded-full bg-indigo-300 sm:h-20 sm:w-20 object-cover"
-                src={associate.imgUrl ?? '/images/avatar/No_avatar.png'}
+                src={associate.imgUrl ?? "/images/avatar/No_avatar.png"}
                 alt={associate.name}
               />
             </span>
@@ -139,3 +141,8 @@ const { href, companyName, associateName, description, logoUrl, associate } =
 		transform: translateX(2px);
 	}
 </style> -->
+<style>
+  .keep-words {
+    word-break: keep-all;
+  }
+</style>

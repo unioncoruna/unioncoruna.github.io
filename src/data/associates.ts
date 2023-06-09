@@ -237,7 +237,7 @@ export const associates: Company[] = [
     contact: {
       formalName: "WIMASNET SOLUTIONS SL",
       email: "oscar.iglesias@juifi.com",
-      web: "www.juifi.com",
+      web: "http://www.juifi.com",
       phone: "+34693778866",
     },
     services: [
@@ -557,6 +557,58 @@ export const associates: Company[] = [
       { name: "De vehículos" },
       { name: "De salud" },
       { name: "etc." },
+    ],
+  },
+  {
+    // Alberto Moncada
+    companySlug: "moncada-persianas-rieles",
+    companyName: "Moncada",
+    logoUrl: "/images/logos/moncada.webp",
+    sector: "Construcción - Decoración",
+    slogan: "",
+    description: `<p>Somos mayoristas de barras, rieles, estores, persianas verticales, venecianas y todo tipo de accesorios para cortinas.</p>
+                  <p>Asesoramos, medimos, suministramos e instalamos todo tipo de soluciones en materia de protección solar y/o decoracion de ventanas para el profesional de la construcción-decoracion.</p>
+                  `,
+    address:
+      "Av de Finisterre 444 - 1B CP 15008, A Coruña, A Coruña, A Coruña, Spain",
+    associate: {
+      name: "Alberto Fernández González",
+      imgUrl: "/images/avatar/alberto_fernandez_gonzalez.webp",
+      role: "Administrativo - Comercial",
+    },
+    contact: {
+      formalName: "Juan Antonio Moncada Ochoa",
+      email: "info@persianasyrielesmoncada.es",
+      web: "http://www.persianasyrielesmoncada.es",
+      phone: "981262825",
+    },
+    services: [
+      { name: "Rieles/barras de cortina" },
+      {
+        name: "Cintas, ganchos, alzapaños,portavisillosy en general todo tipo de accesorios para cortinas",
+      },
+      { name: "Estores enrollables screen/opacos/textiles" },
+      { name: "Persianas verticales" },
+      { name: "Persianas venecianas" },
+      { name: "Paneles japoneses" },
+      { name: "Confeccion de cortinas y estores pachetto" },
+      { name: "Instalación" },
+      { name: "Medicion" },
+      { name: "Asesoramiento" },
+    ],
+    needs: [
+      {
+        name: "Clientes",
+        description: `Personas o empresas que necesiten seguros de cualquier tipo.`,
+      },
+
+      { name: "Profesionales de la construccion-decoración" },
+      { name: "Estudios de arquitectura" },
+      { name: "Inmobiliarias" },
+      { name: "Empresas de reformas" },
+      { name: "Tapicerias" },
+      { name: "Ferreterías" },
+      { name: "Interioristas con o sin tienda" },
     ],
   },
 ];
