@@ -77,7 +77,8 @@ export const associates: Company[] = [
     logoUrl: "/images/logos/logo_asesor_energetico.svg",
     sector:
       "Eficiencia energética, construcción Passivhaus, Protección de datos y Financiación alternativa",
-    slogan: "Eficiencia energética, movilidad eléctrica y Passivhaus",
+    slogan:
+      "Eficiencia energética, construcción Passivhaus, Protección de datos y Financiación alternativa",
     description: `Abaratar facturas de electricidad y gas.
         Instalaciones fotovoltaicas, incluso sin inversión.
         Reformas integrales de edificios, sin inversión por parte del cliente.
