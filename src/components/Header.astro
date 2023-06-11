@@ -13,7 +13,7 @@ const { title, slogan, companyName } = Astro.props;
 
     <img
       src="/images/jAyckLebI-k.webp"
-      alt=""
+      alt="Cabecera mostrando una gota de agua"
       class="h-96 w-full object-cover object-center"
     />
     <div class="absolute inset-0 bg-gradient-to-t from-gray-50"></div>
@@ -25,13 +25,15 @@ const { title, slogan, companyName } = Astro.props;
     <slot />
     <div class="grow pt-4 sm:py-16 sm:px-6 lg:px-8">
       <div class="text-center">
-        <img
-          src="/images/logos/logo_uc.svg"
-          alt="Logo"
-          width="80"
-          height="82"
-          class="mx-auto w-20 h-20 sm:w-28 sm:h-28 mb-2 -mt-2 sm:-mt-8"
-        />
+        <a href="/">
+          <img
+            src="/images/logos/logo_uc.svg"
+            alt="Logo Unión Coruña"
+            width="80"
+            height="82"
+            class="mx-auto w-20 h-20 sm:w-28 sm:h-28 mb-2 -mt-2 sm:-mt-8"
+          />
+        </a>
         <h1
           class="mt-1 text-3xl font-bold tracking-tight text-gray-800 sm:text-5xl lg:text-6xl text-ellipsis overflow-hidden sm:overflow-visible max-w-[94vw]"
         >
