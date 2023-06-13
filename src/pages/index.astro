@@ -14,6 +14,9 @@ function shuffleArray(array: Array<Company>) {
 
 const shuffledAssociates = associates.slice(0);
 shuffleArray(shuffledAssociates);
+const alphabeticAssociates = associates.sort((a, b) =>
+  a.companyName.localeCompare(b.companyName)
+);
 const canonicalURL = new URL(
   Astro.url.pathname,
   "https://unioncoruna.com"
@@ -31,7 +34,7 @@ const meta = {
 
 <Layout
   title="Unión Coruña · Sumando talentos, multiplicando éxitos"
-  description="La alianza de empresarios que crea sinergias, impulsa el crecimiento conjunto y genera oportunidades para el éxito empresarial."
+  description="Unión Coruña es una alianza de empresarios que crea sinergias, impulsa el crecimiento conjunto y genera oportunidades para el éxito empresarial."
   metas={[
     { property: "og:url", content: canonicalURL },
     { property: "og:type", content: "website" },
@@ -82,7 +85,7 @@ const meta = {
         class="space-y-12 sm:grid sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8"
       >
         {
-          shuffledAssociates.map((associate) => (
+          alphabeticAssociates.map((associate) => (
             <Card
               companyName={associate.companyName}
               associateName={associate.associate.name}
