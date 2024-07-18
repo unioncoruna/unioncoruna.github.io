@@ -127,141 +127,144 @@ export const associates: Company[] = [
       },
     ],
   },
-  {
-    // Popup Marketing
-    companySlug: "popup-marketing",
-    companyName: "PopUp Marketing",
-    logoUrl: "/images/logos/Logo_PopUp_Sin_Fondo.png",
-    sector: "Marketing Digital",
-    slogan: "Te ayudamos a conseguir nuevos clientes",
-    description: `Publicidad en Google, Youtube, Redes Sociales. Automatizaciones de email marketing y embudos de venta.`,
-    associate: {
-      name: "Julio J. Gallego Sáenz",
-      imgUrl: "/images/avatar/JulioGallego_popup_200x200.webp",
-      role: "CEO",
-    },
-    contact: {
-      formalName: undefined,
-      email: "info@popupmarketing.es",
-      web: "www.popupmarketing.es",
-      phone: "+34698183224",
-    },
-    services: [
-      {
-        name: "Publicidad",
-      },
-      {
-        name: "Creación de embudos de venta",
-      },
-      {
-        name: "Email Marketing",
-      },
-    ],
-    needs: [
-      {
-        name: "Clientes con ecommerce",
-        description: "Empresas que tengan tienda online",
-      },
-    ],
-  },
-  {
-    // Comercial Diresa
-    companySlug: "diresa",
-    companyName: "Comercial Diresa",
-    logoUrl: "/images/logos/logo_diresa.webp",
-    sector: "Ferretería. Suministros Industriales.",
-    slogan: "Tu Ferretería Industrial de confianza",
-    description: `<p>Comercial Diresa es una empresa familiar, constituída en el año 1984, que nace para dar servicio a la demanda de nuestros clientes en la Ría de Ferrol.</p>
+  // {
+  //   // Popup Marketing
+  //   companySlug: "popup-marketing",
+  //   companyName: "PopUp Marketing",
+  //   logoUrl: "/images/logos/Logo_PopUp_Sin_Fondo.png",
+  //   sector: "Marketing Digital",
+  //   slogan: "Te ayudamos a conseguir nuevos clientes",
+  //   description: `Publicidad en Google, Youtube, Redes Sociales. Automatizaciones de email marketing y embudos de venta.`,
+  //   associate: {
+  //     name: "Julio J. Gallego Sáenz",
+  //     imgUrl: "/images/avatar/JulioGallego_popup_200x200.webp",
+  //     role: "CEO",
+  //   },
+  //   contact: {
+  //     formalName: undefined,
+  //     email: "info@popupmarketing.es",
+  //     web: "www.popupmarketing.es",
+  //     phone: "+34698183224",
+  //   },
+  //   services: [
+  //     {
+  //       name: "Publicidad",
+  //     },
+  //     {
+  //       name: "Creación de embudos de venta",
+  //     },
+  //     {
+  //       name: "Email Marketing",
+  //     },
+  //   ],
+  //   needs: [
+  //     {
+  //       name: "Clientes con ecommerce",
+  //       description: "Empresas que tengan tienda online",
+  //     },
+  //   ],
+  // },
 
-<p>El auge del sector naval en aquella época hizo crecer a la empresa y forzó su diversificación en almacenamiento y distribución de productos de índole industrial.</p>
+  //   {
+  //     // Comercial Diresa
+  //     companySlug: "diresa",
+  //     companyName: "Comercial Diresa",
+  //     logoUrl: "/images/logos/logo_diresa.webp",
+  //     sector: "Ferretería. Suministros Industriales.",
+  //     slogan: "Tu Ferretería Industrial de confianza",
+  //     description: `<p>Comercial Diresa es una empresa familiar, constituída en el año 1984, que nace para dar servicio a la demanda de nuestros clientes en la Ría de Ferrol.</p>
 
-<p>Si bien es cierto que todo empezó como una ferretería de efectos navales e industriales, desde aquel entonces, siempre hemos estado a la vanguardia de las novedades introducidas por los fabricantes en el ámbio de los suministros industriales.</p>
+  // <p>El auge del sector naval en aquella época hizo crecer a la empresa y forzó su diversificación en almacenamiento y distribución de productos de índole industrial.</p>
 
-<p>40 años después, seguimos trabajando todos los días para ofrecer una solución inmediata a nuestros clientes.</p>
+  // <p>Si bien es cierto que todo empezó como una ferretería de efectos navales e industriales, desde aquel entonces, siempre hemos estado a la vanguardia de las novedades introducidas por los fabricantes en el ámbio de los suministros industriales.</p>
 
-<p>Hoy en día, gracias a nuestro desarrollo digital, no sólo abarcamos la geografía de Ferrol y Galicia, si no que tenemos un alcance nacional, sirviendo productos de soldadura e industriales en toda España.</p>`,
-    associate: {
-      name: "Alejandro M. Santos",
-      imgUrl: "/images/avatar/AlejandroMSantos_200x200.webp",
-      role: "CMO",
-    },
-    contact: {
-      formalName: "Comercial Diresa S.L.",
-      email: "info@comercialdiresa.com",
-      web: "www.comercialdiresa.com",
-      phone: "+34671409879",
-    },
-    services: [
-      {
-        name: "Herramientas manuales",
-      },
-      {
-        name: "Herramientas eléctricas",
-      },
-      {
-        name: "Ferretería",
-      },
-      {
-        name: "Soldadura",
-      },
-      {
-        name: "Materiales de construcción",
-      },
-      {
-        name: "Corte de hierro a medida",
-      },
-      {
-        name: "Malla hércules",
-      },
-      {
-        name: "Jardinería",
-      },
-    ],
-    needs: [
-      {
-        name: "Clientes profesionales (talleres, almacenistas, industria...)",
-      },
-    ],
-  },
-  {
-    // Juifi
-    companySlug: "juifi",
-    companyName: "JUIFI",
-    logoUrl: "/images/logos/Nuevo_Logo_Juifi.webp",
-    sector: "Telecomunicaciones",
-    slogan: "FIBRA e INTERNET RURAL",
-    description: `Comenzamos ofreciendo servicios de internet en zonas rurales y/o de dificil acceso y actualmente hemos evolucionado a territorio nacional al disponer de fibra en cualquier ubicacion.`,
-    associate: {
-      name: "Óscar Iglesias Tarrío",
-      imgUrl: undefined,
-      role: "Administrador",
-    },
-    contact: {
-      formalName: "WIMASNET SOLUTIONS SL",
-      email: "oscar.iglesias@juifi.com",
-      web: "http://www.juifi.com",
-      phone: "+34693778866",
-    },
-    services: [
-      {
-        name: "Fibra",
-      },
-      {
-        name: "Internet rural a través de wimax/4G",
-      },
-      {
-        name: "Móvil",
-      },
-      {
-        name: "TV",
-      },
-    ],
-    needs: [
-      {
-        name: "Clientes interesados en tener un buen servicio a buen precio",
-      },
-    ],
-  },
+  // <p>40 años después, seguimos trabajando todos los días para ofrecer una solución inmediata a nuestros clientes.</p>
+
+  // <p>Hoy en día, gracias a nuestro desarrollo digital, no sólo abarcamos la geografía de Ferrol y Galicia, si no que tenemos un alcance nacional, sirviendo productos de soldadura e industriales en toda España.</p>`,
+  //     associate: {
+  //       name: "Alejandro M. Santos",
+  //       imgUrl: "/images/avatar/AlejandroMSantos_200x200.webp",
+  //       role: "CMO",
+  //     },
+  //     contact: {
+  //       formalName: "Comercial Diresa S.L.",
+  //       email: "info@comercialdiresa.com",
+  //       web: "www.comercialdiresa.com",
+  //       phone: "+34671409879",
+  //     },
+  //     services: [
+  //       {
+  //         name: "Herramientas manuales",
+  //       },
+  //       {
+  //         name: "Herramientas eléctricas",
+  //       },
+  //       {
+  //         name: "Ferretería",
+  //       },
+  //       {
+  //         name: "Soldadura",
+  //       },
+  //       {
+  //         name: "Materiales de construcción",
+  //       },
+  //       {
+  //         name: "Corte de hierro a medida",
+  //       },
+  //       {
+  //         name: "Malla hércules",
+  //       },
+  //       {
+  //         name: "Jardinería",
+  //       },
+  //     ],
+  //     needs: [
+  //       {
+  //         name: "Clientes profesionales (talleres, almacenistas, industria...)",
+  //       },
+  //     ],
+  //   },
+
+  // {
+  //   // Juifi
+  //   companySlug: "juifi",
+  //   companyName: "JUIFI",
+  //   logoUrl: "/images/logos/Nuevo_Logo_Juifi.webp",
+  //   sector: "Telecomunicaciones",
+  //   slogan: "FIBRA e INTERNET RURAL",
+  //   description: `Comenzamos ofreciendo servicios de internet en zonas rurales y/o de dificil acceso y actualmente hemos evolucionado a territorio nacional al disponer de fibra en cualquier ubicacion.`,
+  //   associate: {
+  //     name: "Óscar Iglesias Tarrío",
+  //     imgUrl: undefined,
+  //     role: "Administrador",
+  //   },
+  //   contact: {
+  //     formalName: "WIMASNET SOLUTIONS SL",
+  //     email: "oscar.iglesias@juifi.com",
+  //     web: "http://www.juifi.com",
+  //     phone: "+34693778866",
+  //   },
+  //   services: [
+  //     {
+  //       name: "Fibra",
+  //     },
+  //     {
+  //       name: "Internet rural a través de wimax/4G",
+  //     },
+  //     {
+  //       name: "Móvil",
+  //     },
+  //     {
+  //       name: "TV",
+  //     },
+  //   ],
+  //   needs: [
+  //     {
+  //       name: "Clientes interesados en tener un buen servicio a buen precio",
+  //     },
+  //   ],
+  // },
+
   {
     // Caviar
     companySlug: "caviar-calvisius",
@@ -375,75 +378,78 @@ export const associates: Company[] = [
     ],
     needs: [],
   },
-  {
-    // Tap 3
-    companySlug: "tap3-ventanas",
-    companyName: "TAP3 Ventanas",
-    logoUrl: "/images/logos/tap3.svg",
-    sector: "Ventanas, puertas y verandas",
-    slogan: "Las mejores ventanas del mercado",
-    description: `Tap3 Ventanas es la suma de un grupo de profesionales con dilatada experiencia en el sector de la carpintería metálica
-      dedicados a la Distribución de productos de la marca FINSTRAL, industria europea líder en la técnica moderna de cerramientos.`,
-    address: "RONDA DE NELLE, 133 BAJO IZQ., A CORUÑA, A CORUÑA, 15010, Spain",
-    associate: {
-      name: "Jose Fernández Martínez",
-      imgUrl: "/images/avatar/jose_fernandez_200x250.webp",
-      role: "Administrador",
-    },
-    contact: {
-      formalName: "TAP3 Servicios Integrales S.L.",
-      email: "info@grupotap.com",
-      web: "www.grupotap.com",
-      phone: "881243435",
-    },
-    services: [
-      { name: "Puertas, ventanas, verandas y persianas." },
-      { name: "Asesoramiento, medición, instalación." },
-    ],
-    needs: [
-      {
-        name: "Clientes",
-        description:
-          "Buscamos clientes interesados en la más alta calidad, prestaciones y estética para la carpintería exterior.",
-      },
-    ],
-  },
-  {
-    // Alarkom Security Systems
-    companySlug: "alarcom-security-systems",
-    companyName: "Alarköm Security Systems",
-    logoUrl: "/images/logos/logo_alarkom.webp",
-    sector: "Sistemas de Seguridad",
-    slogan: "La seguridad ante todo",
-    description: `Empresa gallega de seguridad para todo tipo de instalaciones. Residencial y todo tipo de negocios`,
-    address: "PARROQUIA DE LUBRE PARC.R.20, Bergondo, A Coruña, 15165, Spain",
-    associate: {
-      name: "Jose",
-      imgUrl: "/images/avatar/Jose_Alarkom_200x200.webp",
-      role: "Asesor de Seguridad",
-    },
-    contact: {
-      formalName: "",
-      email: "ja.sanchez@alarkom.es",
-      web: "www.alarkom.es",
-      phone: "607274860",
-    },
-    services: [
-      { name: "Alarmas" },
-      { name: "Sistemas CCTV" },
-      { name: "Análisis de video" },
-      { name: "Controles de acceso" },
-      { name: "Control de personas" },
-      { name: "Central receptora propia en Bergondo" },
-    ],
-    needs: [
-      {
-        name: "Clientes",
-        description:
-          "Todas las personas que les interese proteger su vivienda o su negocio.",
-      },
-    ],
-  },
+
+  // {
+  //   // Tap 3
+  //   companySlug: "tap3-ventanas",
+  //   companyName: "TAP3 Ventanas",
+  //   logoUrl: "/images/logos/tap3.svg",
+  //   sector: "Ventanas, puertas y verandas",
+  //   slogan: "Las mejores ventanas del mercado",
+  //   description: `Tap3 Ventanas es la suma de un grupo de profesionales con dilatada experiencia en el sector de la carpintería metálica
+  //     dedicados a la Distribución de productos de la marca FINSTRAL, industria europea líder en la técnica moderna de cerramientos.`,
+  //   address: "RONDA DE NELLE, 133 BAJO IZQ., A CORUÑA, A CORUÑA, 15010, Spain",
+  //   associate: {
+  //     name: "Jose Fernández Martínez",
+  //     imgUrl: "/images/avatar/jose_fernandez_200x250.webp",
+  //     role: "Administrador",
+  //   },
+  //   contact: {
+  //     formalName: "TAP3 Servicios Integrales S.L.",
+  //     email: "info@grupotap.com",
+  //     web: "www.grupotap.com",
+  //     phone: "881243435",
+  //   },
+  //   services: [
+  //     { name: "Puertas, ventanas, verandas y persianas." },
+  //     { name: "Asesoramiento, medición, instalación." },
+  //   ],
+  //   needs: [
+  //     {
+  //       name: "Clientes",
+  //       description:
+  //         "Buscamos clientes interesados en la más alta calidad, prestaciones y estética para la carpintería exterior.",
+  //     },
+  //   ],
+  // },
+
+  // {
+  //   // Alarkom Security Systems
+  //   companySlug: "alarcom-security-systems",
+  //   companyName: "Alarköm Security Systems",
+  //   logoUrl: "/images/logos/logo_alarkom.webp",
+  //   sector: "Sistemas de Seguridad",
+  //   slogan: "La seguridad ante todo",
+  //   description: `Empresa gallega de seguridad para todo tipo de instalaciones. Residencial y todo tipo de negocios`,
+  //   address: "PARROQUIA DE LUBRE PARC.R.20, Bergondo, A Coruña, 15165, Spain",
+  //   associate: {
+  //     name: "Jose",
+  //     imgUrl: "/images/avatar/Jose_Alarkom_200x200.webp",
+  //     role: "Asesor de Seguridad",
+  //   },
+  //   contact: {
+  //     formalName: "",
+  //     email: "ja.sanchez@alarkom.es",
+  //     web: "www.alarkom.es",
+  //     phone: "607274860",
+  //   },
+  //   services: [
+  //     { name: "Alarmas" },
+  //     { name: "Sistemas CCTV" },
+  //     { name: "Análisis de video" },
+  //     { name: "Controles de acceso" },
+  //     { name: "Control de personas" },
+  //     { name: "Central receptora propia en Bergondo" },
+  //   ],
+  //   needs: [
+  //     {
+  //       name: "Clientes",
+  //       description:
+  //         "Todas las personas que les interese proteger su vivienda o su negocio.",
+  //     },
+  //   ],
+  // },
+
   {
     // DelaO
     companySlug: "banda-delao",
@@ -561,92 +567,93 @@ export const associates: Company[] = [
       { name: "etc." },
     ],
   },
-  {
-    // Alberto Moncada
-    companySlug: "moncada-persianas-rieles",
-    companyName: "Moncada",
-    logoUrl: "/images/logos/moncada.webp",
-    sector: "Construcción - Decoración",
-    slogan: "Decoramos tus ventanas, vestimos tus ideas",
-    description: `<p>Somos mayoristas de cortinas técnicas, rieles y automatismos para la protección solar y/o decoración de la ventana.</p>
-                  <p>Damos soluciones a medida ofeciendo una amplia gama de articulos: estores enrollables, paneles japoneses, persianas venecianas, persianas verticales, noche y dia, rieles barras...</p>
-                  `,
-    address:
-      "Av de Finisterre 444 - 1B CP 15008, A Coruña, A Coruña, A Coruña, Spain",
-    associate: {
-      name: "Alberto Fernández González",
-      imgUrl: "/images/avatar/alberto_fernandez_gonzalez.webp",
-      role: "Administrativo - Comercial",
-    },
-    contact: {
-      formalName: "Juan Antonio Moncada Ochoa",
-      email: "info@persianasyrielesmoncada.es",
-      web: "http://www.persianasyrielesmoncada.es",
-      phone: "981262825",
-    },
-    services: [
-      { name: "Estores Enrollables" },
-      { name: "Cortinas tecnicas" },
-      { name: "Barras decorativas" },
-      { name: "Rieles de cortinas" },
-      { name: "Estores textiles pachetto/con varillas" },
-      { name: "Portavisillos" },
-      { name: "Garfios/ganchos de Cortina" },
-      { name: "Cintas de Cortina" },
-      { name: "Bastones de Cortina" },
-      {
-        name: "Contrapesos, tensores, cordones, correderas y en general todo tipo de componentes para barras, rieles y accesorios de cortinas",
-      },
-      { name: "Servicio de medición" },
-      { name: "Servicio de asesoramiento" },
-      { name: "Servicio de instalación" },
+  // {
+  //   // Alberto Moncada
+  //   companySlug: "moncada-persianas-rieles",
+  //   companyName: "Moncada",
+  //   logoUrl: "/images/logos/moncada.webp",
+  //   sector: "Construcción - Decoración",
+  //   slogan: "Decoramos tus ventanas, vestimos tus ideas",
+  //   description: `<p>Somos mayoristas de cortinas técnicas, rieles y automatismos para la protección solar y/o decoración de la ventana.</p>
+  //                 <p>Damos soluciones a medida ofeciendo una amplia gama de articulos: estores enrollables, paneles japoneses, persianas venecianas, persianas verticales, noche y dia, rieles barras...</p>
+  //                 `,
+  //   address:
+  //     "Av de Finisterre 444 - 1B CP 15008, A Coruña, A Coruña, A Coruña, Spain",
+  //   associate: {
+  //     name: "Alberto Fernández González",
+  //     imgUrl: "/images/avatar/alberto_fernandez_gonzalez.webp",
+  //     role: "Administrativo - Comercial",
+  //   },
+  //   contact: {
+  //     formalName: "Juan Antonio Moncada Ochoa",
+  //     email: "info@persianasyrielesmoncada.es",
+  //     web: "http://www.persianasyrielesmoncada.es",
+  //     phone: "981262825",
+  //   },
+  //   services: [
+  //     { name: "Estores Enrollables" },
+  //     { name: "Cortinas tecnicas" },
+  //     { name: "Barras decorativas" },
+  //     { name: "Rieles de cortinas" },
+  //     { name: "Estores textiles pachetto/con varillas" },
+  //     { name: "Portavisillos" },
+  //     { name: "Garfios/ganchos de Cortina" },
+  //     { name: "Cintas de Cortina" },
+  //     { name: "Bastones de Cortina" },
+  //     {
+  //       name: "Contrapesos, tensores, cordones, correderas y en general todo tipo de componentes para barras, rieles y accesorios de cortinas",
+  //     },
+  //     { name: "Servicio de medición" },
+  //     { name: "Servicio de asesoramiento" },
+  //     { name: "Servicio de instalación" },
 
-      { name: "Asesoramiento" },
-    ],
-    needs: [
-      { name: "Decoradoras" },
-      { name: "Empresas de reformas" },
-      { name: "Carpinterias" },
-      { name: "Tapiceros" },
-      { name: "Interioristas" },
-      { name: "Comercios de Textil-Hogar" },
-      { name: "Constructores" },
-      { name: "Arquitectos" },
-      { name: "Mueblerías" },
-      { name: "Distribuidores de ventanas" },
-      { name: "Especialistas en domótica" },
-    ],
-  },
-  {
-    // Irene SOA Arquitectos
-    companySlug: "soa-arquitectos",
-    companyName: "SOA Arquitectos",
-    logoUrl: "/images/logos/LOGO_SOA_arquitectos.webp",
-    sector: "Arquitectura",
-    slogan: "",
-    description: `<p>SOA Arquitectos se dedica a ofrecer servicios relacionados con la arquitectura y el diseño arquitectónico y gráfico.</p>
-                  `,
-    address: "C/Payo Gómez Nº16 - 4ºE, A Coruña, A Coruña, 15004, Spain",
-    associate: {
-      name: "Irene García Timiraos",
-      imgUrl: "/images/avatar/Irene_200x200.webp",
-      role: "Arquitecta",
-    },
-    contact: {
-      formalName: "SOA Arquitectos",
-      email: "irene@soaarquitectos.com",
-      web: "soaarquitectos.com",
-      phone: "670899724",
-    },
-    services: [
-      {
-        name: "Arquitectura: Proyectos de ejecución de obra nueva y rehabilitación. Proyectos de reforma. Interiorismo.",
-      },
-      { name: "Infografías" },
-      { name: "Diseño gráfico" },
-      { name: "Estudios: Viabilidad de edificación, CEE, IEE." },
-      { name: "Direcciones de obra" },
-    ],
-    needs: [],
-  },
+  //     { name: "Asesoramiento" },
+  //   ],
+  //   needs: [
+  //     { name: "Decoradoras" },
+  //     { name: "Empresas de reformas" },
+  //     { name: "Carpinterias" },
+  //     { name: "Tapiceros" },
+  //     { name: "Interioristas" },
+  //     { name: "Comercios de Textil-Hogar" },
+  //     { name: "Constructores" },
+  //     { name: "Arquitectos" },
+  //     { name: "Mueblerías" },
+  //     { name: "Distribuidores de ventanas" },
+  //     { name: "Especialistas en domótica" },
+  //   ],
+  // },
+
+  // {
+  //   // Irene SOA Arquitectos
+  //   companySlug: "soa-arquitectos",
+  //   companyName: "SOA Arquitectos",
+  //   logoUrl: "/images/logos/LOGO_SOA_arquitectos.webp",
+  //   sector: "Arquitectura",
+  //   slogan: "",
+  //   description: `<p>SOA Arquitectos se dedica a ofrecer servicios relacionados con la arquitectura y el diseño arquitectónico y gráfico.</p>
+  //                 `,
+  //   address: "C/Payo Gómez Nº16 - 4ºE, A Coruña, A Coruña, 15004, Spain",
+  //   associate: {
+  //     name: "Irene García Timiraos",
+  //     imgUrl: "/images/avatar/Irene_200x200.webp",
+  //     role: "Arquitecta",
+  //   },
+  //   contact: {
+  //     formalName: "SOA Arquitectos",
+  //     email: "irene@soaarquitectos.com",
+  //     web: "soaarquitectos.com",
+  //     phone: "670899724",
+  //   },
+  //   services: [
+  //     {
+  //       name: "Arquitectura: Proyectos de ejecución de obra nueva y rehabilitación. Proyectos de reforma. Interiorismo.",
+  //     },
+  //     { name: "Infografías" },
+  //     { name: "Diseño gráfico" },
+  //     { name: "Estudios: Viabilidad de edificación, CEE, IEE." },
+  //     { name: "Direcciones de obra" },
+  //   ],
+  //   needs: [],
+  // },
 ];
