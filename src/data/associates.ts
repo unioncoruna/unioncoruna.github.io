@@ -378,7 +378,39 @@ export const associates: Company[] = [
     ],
     needs: [],
   },
-
+  {
+    // Joaquin
+    companySlug: "bcj-asesoria",
+    companyName: "BCJ Asesoría",
+    logoUrl: "/images/logos/bcj-asesoria.webp",
+    sector: "Asesoría",
+    slogan: "Tu asesoría de confianza",
+    description: `Ofrecemos asesoría fiscal, laboral y contable orientada a autónomos y PYMES. Abogado y administración de fincas`,
+    address: "C/ Nicomedes Pastor Díaz, 6, A Coruña, A Coruña, 15006, España",
+    associate: {
+      name: "Joaquín Barrientos Conde",
+      imgUrl: "/images/avatar/joaquin_200x200.webp",
+      role: "Asesor fiscal",
+    },
+    contact: {
+      formalName: "",
+      email: "info@bcjasesoria.es",
+      web: "www.bcjasesoria.es",
+      phone: "981923333",
+    },
+    services: [
+      { name: "Asesoría fiscal." },
+      { name: "Asesoría laboral." },
+      { name: "Asesoría contable." },
+      { name: "Abogado." },
+      { name: "Administración de fincas." },
+   //   { name: "Concursos de acreedores." },
+   //   { name: "Segunda oportunidad." },
+   //   { name: "Herencias." },
+      { name: "etc." },
+    ],
+    needs: [],
+  },
   // {
   //   // Tap 3
   //   companySlug: "tap3-ventanas",
