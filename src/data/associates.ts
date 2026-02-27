@@ -23,6 +23,7 @@ export type Company = {
   address?: string;
 };
 export const associates: Company[] = [
+  // #region galicloud
   {
     // Galicloud
     companySlug: "galicloud",
@@ -70,6 +71,8 @@ export const associates: Company[] = [
     description:
       "Nos dedicamos al desarrollo de software y desarrollo de apps. Utilizamos y dominamos algunas de las tecnologías webs más modernas y demandadas. Somos expertos en desarrollo web y también impartimos formación a empresas en las últimas tecnologías web.",
   },
+  // #endregion
+  // #region jesus-asesor
   {
     // Jesus Asesor energético
     companySlug: "asesorenergetico.info",
@@ -127,6 +130,8 @@ export const associates: Company[] = [
       },
     ],
   },
+  // #endregion
+  // #region popup-marketing
   // {
   //   // Popup Marketing
   //   companySlug: "popup-marketing",
@@ -164,7 +169,8 @@ export const associates: Company[] = [
   //     },
   //   ],
   // },
-
+  // #endregion
+  // #region diresa
   //   {
   //     // Comercial Diresa
   //     companySlug: "diresa",
@@ -224,7 +230,8 @@ export const associates: Company[] = [
   //       },
   //     ],
   //   },
-
+  // #endregion
+  // #region juifi
   // {
   //   // Juifi
   //   companySlug: "juifi",
@@ -264,132 +271,139 @@ export const associates: Company[] = [
   //     },
   //   ],
   // },
+  // #endregion
+  // #region caviar
+  // {
+  //   // Caviar
+  //   companySlug: "caviar-calvisius",
+  //   companyName: "Caviar Calvisius Distribución GAL",
+  //   logoUrl: "/images/logos/logo_caviar_calvisius-v2.webp",
+  //   sector: "Distribución Caviar",
+  //   slogan: "Distribución Gallega de Caviar a particulares y empresas.",
+  //   description: `<p>En 1998 La Convención CITES incluye al esturión entre las especies en peligro de extinción limitando su pesca. En 2008 La pesca fue totalmente prohibida y las pocas quotas de pesca para algunos paises del mar Caspio, tienen total y absolutamente prohibida su exportacion. Por lo tanto, todo el caviar que se comercializa en el mundo es de cultivo.</p>
 
-  {
-    // Caviar
-    companySlug: "caviar-calvisius",
-    companyName: "Caviar Calvisius Distribución GAL",
-    logoUrl: "/images/logos/logo_caviar_calvisius-v2.webp",
-    sector: "Distribución Caviar",
-    slogan: "Distribución Gallega de Caviar a particulares y empresas.",
-    description: `<p>En 1998 La Convención CITES incluye al esturión entre las especies en peligro de extinción limitando su pesca. En 2008 La pesca fue totalmente prohibida y las pocas quotas de pesca para algunos paises del mar Caspio, tienen total y absolutamente prohibida su exportacion. Por lo tanto, todo el caviar que se comercializa en el mundo es de cultivo.</p>
+  //   <p>En 1977 nace Agroittica Lombarda siendo la primera empresa de cultivo de esturiones para la producción de caviar.<br />
+  //   Con los años, la empresa se ha convertido en el referente mundial por la frescura, calidad y buen sabor, y por la pureza de toda su producción.</p>
 
-    <p>En 1977 nace Agroittica Lombarda siendo la primera empresa de cultivo de esturiones para la producción de caviar.<br />
-    Con los años, la empresa se ha convertido en el referente mundial por la frescura, calidad y buen sabor, y por la pureza de toda su producción.</p>
-    
-    <p>Agroittica S.p.A. se encuentra en Calvisano al lado del Lago de Garda, bello municipio de la provincia de Brescia, región rica en fuentes de aguas de manantial. Las características únicas y excepcionales de las aguas puras presentes en la zona, son la base para el excelente ecosistema que garantiza la autenticidad y frescura de nuestros productos.</p>
-    
-    <p>En 2007, justo antes de la prohibicion de pesca, Agroittica establece el récord de producción con 25 toneladas de caviar, que suponen aproximadamente el 30% de la producción mundial, superando a la de Irán.</p>
-    
-    <ul>
-    <li>Agroittica es la reserva de esturiones puros mas grande del mundo jugando un papel crucial en la consevacion de las especies.</li>
-    <li>Nos avalan 60 hectareas en un entorno puro y natural y una produccion de 25 toneladas de caviar anuales que exportamos al mundo.</li>
-    <li>El fondo de las piscinas asimila el habitat natural de los esturiones, con los fondos cubiertos de piedras de rio y con la vegetacion natural de los fondos aquaticos y sus desembocaduras. Un entorno natural que da como resultado un caviar natural, original y puro.</li>
-    <li>No sometemos a nuestros esturiones a ningun proceso de aceleracion biologico por lo que respetamos los ciclos naturales de produccion. Cada esturion llega a la edad madura segun su propia biologia y de forma totalmente natural.</li>
-    <li>La produccion es malosol, utilizando un 2,5% de sal como conservante. La sal es de Cervia, sal marina llamada ‘sale dei Papi’, la sal de los Papas, excelente sal pura.</li>
-    <li>La transparencia y pureza de sabor de nuestros caviares nos han abierto las puertas del mundo entero.</li>
-    <li>Calvisius juega un papel clave en el suministro de este exquisito producto con todas las garantias de produccion y de trazabilidad desde el nacimiento de nuestros alevines hasta las entregas a nuestros estimados clientes sin límite de distancia.</li>
-    </ul>
-    `,
-    associate: {
-      name: "Carolina Goldsmith Bonigno",
-      imgUrl: "/images/avatar/CarolinaGoldsmith.webp",
-      role: "Distribuidora",
-    },
-    contact: {
-      formalName: "INFINITE B2B INVEST 2022 SL",
-      email: "caviar.calvisius.distribucion.gal@gmail.com",
-      web: undefined,
-      phone: "+34610139377",
-    },
-    services: [
-      {
-        name: "Caviar",
-      },
-    ],
-    needs: [
-      {
-        name: "Clientes (particulares y empresas)",
-      },
-    ],
-  },
-  {
-    // Rebeca
-    companySlug: "rebeca-gil",
-    companyName: "Rebeca Gil Liarte, centro de psicología",
-    logoUrl: "/images/logos/placa_rebeca.png",
-    sector: "Salud",
-    slogan: "Psicología general sanitaria",
-    description: `Servicio de psicología sanitaria de adultos con terapia cognitivos conductual. 
-    Y servicio de psicología sanitaria y psicopedagogía a niños y adolescentes.`,
-    address: "Payo Gomez 16, 5ºB, A Coruña, A Coruña, 15004, Spain",
-    associate: {
-      name: "Rebeca Gil Liarte",
-      imgUrl: "/images/avatar/rebeca_200x213.webp",
-      role: "Directora",
-    },
-    contact: {
-      formalName: "",
-      email: "rgil@cop.es",
-      web: "https://rebecagilpsicologos.com/",
-      phone: "655526227",
-    },
-    services: [
-      { name: "Psicología de adultos" },
-      { name: "Psicología de niños y adolescentes" },
-      { name: "Evaluaciones psicológicas y psicopedagógicas" },
-      { name: "Psicopedagogía" },
-    ],
-    needs: [],
-  },
-  {
-    // Mario
-    companySlug: "ok-legal-abogados",
-    companyName: "OK Legal Abogados",
-    logoUrl: "/images/logos/ok-legal.webp",
-    sector: "Abogacía",
-    slogan: "Servicios Jurídicos",
-    description: `Ofrecemos servicios jurídicos de todo tipo. Contamos con expertos en distintas áreas de capital importancia para
-    nuestra actividad, tales como economistas, mediadores y administradores concursales, peritos, etc. Esto nos
-    permite reaccionar eficazmente ante cualquier requerimiento.`,
-    address: "C/José Echegaray, 4-8ºd, A Coruña, A Coruña, 15006, Spain",
-    associate: {
-      name: "Mario Fernández",
-      imgUrl: "/images/avatar/mario_200x200.webp",
-      role: "Gerente",
-    },
-    contact: {
-      formalName: "",
-      email: "contacto@oklegalabogados.es",
-      web: "www.oklegalabogados.es",
-      phone: "675590964",
-    },
-    services: [
-      { name: "Gastos Hipotecarios." },
-      { name: "Cláusulas Suelo." },
-      { name: "Tarjetas de crédito." },
-      { name: "Responsabilidad civil por daños." },
-      { name: "Contratos." },
-      { name: "Accidentes." },
-      { name: "Concursos de acreedores." },
-      { name: "Segunda oportunidad." },
-      { name: "Herencias." },
-      { name: "etc." },
-    ],
-    needs: [],
-  },
+  //   <p>Agroittica S.p.A. se encuentra en Calvisano al lado del Lago de Garda, bello municipio de la provincia de Brescia, región rica en fuentes de aguas de manantial. Las características únicas y excepcionales de las aguas puras presentes en la zona, son la base para el excelente ecosistema que garantiza la autenticidad y frescura de nuestros productos.</p>
+
+  //   <p>En 2007, justo antes de la prohibicion de pesca, Agroittica establece el récord de producción con 25 toneladas de caviar, que suponen aproximadamente el 30% de la producción mundial, superando a la de Irán.</p>
+
+  //   <ul>
+  //   <li>Agroittica es la reserva de esturiones puros mas grande del mundo jugando un papel crucial en la consevacion de las especies.</li>
+  //   <li>Nos avalan 60 hectareas en un entorno puro y natural y una produccion de 25 toneladas de caviar anuales que exportamos al mundo.</li>
+  //   <li>El fondo de las piscinas asimila el habitat natural de los esturiones, con los fondos cubiertos de piedras de rio y con la vegetacion natural de los fondos aquaticos y sus desembocaduras. Un entorno natural que da como resultado un caviar natural, original y puro.</li>
+  //   <li>No sometemos a nuestros esturiones a ningun proceso de aceleracion biologico por lo que respetamos los ciclos naturales de produccion. Cada esturion llega a la edad madura segun su propia biologia y de forma totalmente natural.</li>
+  //   <li>La produccion es malosol, utilizando un 2,5% de sal como conservante. La sal es de Cervia, sal marina llamada ‘sale dei Papi’, la sal de los Papas, excelente sal pura.</li>
+  //   <li>La transparencia y pureza de sabor de nuestros caviares nos han abierto las puertas del mundo entero.</li>
+  //   <li>Calvisius juega un papel clave en el suministro de este exquisito producto con todas las garantias de produccion y de trazabilidad desde el nacimiento de nuestros alevines hasta las entregas a nuestros estimados clientes sin límite de distancia.</li>
+  //   </ul>
+  //   `,
+  //   associate: {
+  //     name: "Carolina Goldsmith Bonigno",
+  //     imgUrl: "/images/avatar/CarolinaGoldsmith.webp",
+  //     role: "Distribuidora",
+  //   },
+  //   contact: {
+  //     formalName: "INFINITE B2B INVEST 2022 SL",
+  //     email: "caviar.calvisius.distribucion.gal@gmail.com",
+  //     web: undefined,
+  //     phone: "+34610139377",
+  //   },
+  //   services: [
+  //     {
+  //       name: "Caviar",
+  //     },
+  //   ],
+  //   needs: [
+  //     {
+  //       name: "Clientes (particulares y empresas)",
+  //     },
+  //   ],
+  // },
+  // #endregion
+  // #region rebeca
+  // {
+  //   // Rebeca
+  //   companySlug: "rebeca-gil",
+  //   companyName: "Rebeca Gil Liarte, centro de psicología",
+  //   logoUrl: "/images/logos/placa_rebeca.png",
+  //   sector: "Salud",
+  //   slogan: "Psicología general sanitaria",
+  //   description: `Servicio de psicología sanitaria de adultos con terapia cognitivos conductual.
+  //   Y servicio de psicología sanitaria y psicopedagogía a niños y adolescentes.`,
+  //   address: "Payo Gomez 16, 5ºB, A Coruña, A Coruña, 15004, Spain",
+  //   associate: {
+  //     name: "Rebeca Gil Liarte",
+  //     imgUrl: "/images/avatar/rebeca_200x213.webp",
+  //     role: "Directora",
+  //   },
+  //   contact: {
+  //     formalName: "",
+  //     email: "rgil@cop.es",
+  //     web: "https://rebecagilpsicologos.com/",
+  //     phone: "655526227",
+  //   },
+  //   services: [
+  //     { name: "Psicología de adultos" },
+  //     { name: "Psicología de niños y adolescentes" },
+  //     { name: "Evaluaciones psicológicas y psicopedagógicas" },
+  //     { name: "Psicopedagogía" },
+  //   ],
+  //   needs: [],
+  // },
+  // #endregion
+  // #region mario
+  // {
+  //   // Mario
+  //   companySlug: "ok-legal-abogados",
+  //   companyName: "OK Legal Abogados",
+  //   logoUrl: "/images/logos/ok-legal.webp",
+  //   sector: "Abogacía",
+  //   slogan: "Servicios Jurídicos",
+  //   description: `Ofrecemos servicios jurídicos de todo tipo. Contamos con expertos en distintas áreas de capital importancia para
+  //   nuestra actividad, tales como economistas, mediadores y administradores concursales, peritos, etc. Esto nos
+  //   permite reaccionar eficazmente ante cualquier requerimiento.`,
+  //   address: "C/José Echegaray, 4-8ºd, A Coruña, A Coruña, 15006, Spain",
+  //   associate: {
+  //     name: "Mario Fernández",
+  //     imgUrl: "/images/avatar/mario_200x200.webp",
+  //     role: "Gerente",
+  //   },
+  //   contact: {
+  //     formalName: "",
+  //     email: "contacto@oklegalabogados.es",
+  //     web: "www.oklegalabogados.es",
+  //     phone: "675590964",
+  //   },
+  //   services: [
+  //     { name: "Gastos Hipotecarios." },
+  //     { name: "Cláusulas Suelo." },
+  //     { name: "Tarjetas de crédito." },
+  //     { name: "Responsabilidad civil por daños." },
+  //     { name: "Contratos." },
+  //     { name: "Accidentes." },
+  //     { name: "Concursos de acreedores." },
+  //     { name: "Segunda oportunidad." },
+  //     { name: "Herencias." },
+  //     { name: "etc." },
+  //   ],
+  //   needs: [],
+  // },
+  // #endregion
+  // #region joaquin
   {
     // Joaquin
     companySlug: "bcj-asesoria",
     companyName: "BCJ Asesoría",
-    logoUrl: "/images/logos/bcj-asesoria.webp",
+    logoUrl: "/images/logos/logo_bcj_asesoria.webp",
     sector: "Asesoría",
     slogan: "Tu asesoría de confianza",
-    description: `Ofrecemos asesoría fiscal, laboral y contable orientada a autónomos y PYMES. Abogado y administración de fincas`,
+    description: `Somos una asesoría integral en A Coruña especializada en autónomos y PYMES. Gestionamos tu fiscalidad, contabilidad y nóminas, y te acompañamos también en materia legal y en la administración de tus propiedades. Todo en un solo lugar, con el trato cercano que mereces.`,
     address: "C/ Nicomedes Pastor Díaz, 6, A Coruña, A Coruña, 15006, España",
     associate: {
       name: "Joaquín Barrientos Conde",
-      imgUrl: "/images/avatar/joaquin_200x200.webp",
+      imgUrl: "/images/avatar/joaquin_barrientos.webp",
       role: "Asesor fiscal",
     },
     contact: {
@@ -404,13 +418,15 @@ export const associates: Company[] = [
       { name: "Asesoría contable." },
       { name: "Abogado." },
       { name: "Administración de fincas." },
-   //   { name: "Concursos de acreedores." },
-   //   { name: "Segunda oportunidad." },
-   //   { name: "Herencias." },
+      //   { name: "Concursos de acreedores." },
+      //   { name: "Segunda oportunidad." },
+      //   { name: "Herencias." },
       { name: "etc." },
     ],
     needs: [],
   },
+  // #endregion
+  // #region tap3
   // {
   //   // Tap 3
   //   companySlug: "tap3-ventanas",
@@ -444,7 +460,8 @@ export const associates: Company[] = [
   //     },
   //   ],
   // },
-
+  // #endregion
+  // #region alarkom
   // {
   //   // Alarkom Security Systems
   //   companySlug: "alarcom-security-systems",
@@ -481,7 +498,8 @@ export const associates: Company[] = [
   //     },
   //   ],
   // },
-
+  // #endregion
+  // #region delao
   {
     // DelaO
     companySlug: "banda-delao",
@@ -517,51 +535,55 @@ export const associates: Company[] = [
       },
     ],
   },
-  {
-    // Sysega
-    companySlug: "grupo-sysega",
-    companyName: "Grupo Sysega",
-    logoUrl: "/images/logos/LOGO_GRUPO_SYSEGA_PNG_TRANSPARENTE_402X402.webp",
-    sector: "Marketing Online y Herramientas Digitales",
-    slogan: "Marketing Online y Herramientas Digitales",
-    description: `<p>Acercamos el Marketing Online y las Herramientas Digitales a las pequeñas empresas con precios aptos para cualquier negocio local, y con un soporte totalmente personalizado.</p>`,
-    address:
-      "Calle Miramar-Castrillón, 11-1ºD, A Coruña, A Coruña, 15009, Spain",
-    associate: {
-      name: "Manuel González Uzal",
-      imgUrl: "/images/avatar/ManuelGonzalezUzal.webp",
-      role: "Gerente",
-    },
-    contact: {
-      formalName: "Sysega Coruña, S.L.",
-      email: "contacto@gruposysega.es",
-      web: "https://gruposysega.es/",
-      phone: "615354155",
-    },
-    services: [
-      { name: "Publicidad en Redes Sociales (Facebook Ads y Google Ads)" },
-      { name: "Desarrollo Web y Tienda Online a medida" },
-      { name: "Servicio de Comunity Manager" },
-      {
-        name: "Desarrollo de imagen corporativa, logos, tarjetas de visitas, ...",
-      },
-      { name: "Servicio de Video" },
-      { name: "Marketing corporativo" },
-      { name: "Fotografía de producto, corporativa" },
-      { name: "Fotografía y vídeo gastronómico" },
-      { name: "Sistemas de Pedidos Online para Restaurantes y Bares" },
-      { name: "Constructor de Aplicaciones Móviles en PWA" },
-      {
-        name: "Constructor de Webs, Embudos de Venta, Tiendas Online, Membresías, ...",
-      },
-    ],
-    needs: [
-      {
-        name: "Clientes",
-        description: `Cualquier negocio que necesite cubrir cualquier necesidad de las indicadas en nuestros servicios.`,
-      },
-    ],
-  },
+  // #endregion
+  // #region sysega
+  // {
+  //   // Sysega
+  //   companySlug: "grupo-sysega",
+  //   companyName: "Grupo Sysega",
+  //   logoUrl: "/images/logos/LOGO_GRUPO_SYSEGA_PNG_TRANSPARENTE_402X402.webp",
+  //   sector: "Marketing Online y Herramientas Digitales",
+  //   slogan: "Marketing Online y Herramientas Digitales",
+  //   description: `<p>Acercamos el Marketing Online y las Herramientas Digitales a las pequeñas empresas con precios aptos para cualquier negocio local, y con un soporte totalmente personalizado.</p>`,
+  //   address:
+  //     "Calle Miramar-Castrillón, 11-1ºD, A Coruña, A Coruña, 15009, Spain",
+  //   associate: {
+  //     name: "Manuel González Uzal",
+  //     imgUrl: "/images/avatar/ManuelGonzalezUzal.webp",
+  //     role: "Gerente",
+  //   },
+  //   contact: {
+  //     formalName: "Sysega Coruña, S.L.",
+  //     email: "contacto@gruposysega.es",
+  //     web: "https://gruposysega.es/",
+  //     phone: "615354155",
+  //   },
+  //   services: [
+  //     { name: "Publicidad en Redes Sociales (Facebook Ads y Google Ads)" },
+  //     { name: "Desarrollo Web y Tienda Online a medida" },
+  //     { name: "Servicio de Comunity Manager" },
+  //     {
+  //       name: "Desarrollo de imagen corporativa, logos, tarjetas de visitas, ...",
+  //     },
+  //     { name: "Servicio de Video" },
+  //     { name: "Marketing corporativo" },
+  //     { name: "Fotografía de producto, corporativa" },
+  //     { name: "Fotografía y vídeo gastronómico" },
+  //     { name: "Sistemas de Pedidos Online para Restaurantes y Bares" },
+  //     { name: "Constructor de Aplicaciones Móviles en PWA" },
+  //     {
+  //       name: "Constructor de Webs, Embudos de Venta, Tiendas Online, Membresías, ...",
+  //     },
+  //   ],
+  //   needs: [
+  //     {
+  //       name: "Clientes",
+  //       description: `Cualquier negocio que necesite cubrir cualquier necesidad de las indicadas en nuestros servicios.`,
+  //     },
+  //   ],
+  // },
+  // #endregion
+  // #region dalmau
   {
     // Dalmau
     companySlug: "dalmau-seguros",
@@ -599,6 +621,8 @@ export const associates: Company[] = [
       { name: "etc." },
     ],
   },
+  // #endregion
+  // #region moncada
   // {
   //   // Alberto Moncada
   //   companySlug: "moncada-persianas-rieles",
@@ -655,7 +679,8 @@ export const associates: Company[] = [
   //     { name: "Especialistas en domótica" },
   //   ],
   // },
-
+  // #endregion
+  // #region irene-soa-arquitectos
   // {
   //   // Irene SOA Arquitectos
   //   companySlug: "soa-arquitectos",
@@ -688,4 +713,5 @@ export const associates: Company[] = [
   //   ],
   //   needs: [],
   // },
+  // #endregion
 ];
